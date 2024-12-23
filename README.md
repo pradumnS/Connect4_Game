@@ -1,38 +1,3 @@
-Connect4_Game/              # Root directory of the project
-├── src/                    # Source code files for core application logic
-│   ├── Board.cpp           # Implementation of the game board
-│   ├── Player.cpp          # Implementation of player-related functions
-│   ├── Computer.cpp        # Implementation of AI opponent logic
-│   ├── GameController.cpp  # Manages the overall game flow and rules
-│   └── main.cpp            # Entry point for the application
-│
-├── include/                # Header files for class declarations
-│   ├── Board.hpp           # Header for Board class
-│   ├── Player.hpp          # Header for Player class
-│   ├── Computer.hpp        # Header for Computer class
-│   ├── GameController.hpp  # Header for GameController class
-│   └── ...                 # Can add or remove files
-│
-├── test/                   # Unit tests using Google Test Framework
-│   ├── BoardTest.cpp       # Tests for Board class
-│   ├── PlayerTest.cpp      # Tests for Player class
-│   ├── ComputerTest.cpp    # Tests for Computer AI
-│   ├── GameControllerTest.cpp # Tests for game controller logic
-│   └── runtest.cpp         # Entry point for running all tests
-│
-├── build/                  # Build and debug directory (created during compilation)
-│   ├── CMakeFiles/         # CMake-generated files
-│   ├── Makefile            # Makefile for building the project
-│   ├── connect4            # Final compiled executable
-│   ├── test/               # Compiled GTest executables
-│   
-│
-├── CMakeLists.txt          # CMake build configuration file
-├── README.md               # Documentation for project overview and setup i
-└── main.cpp                # Main file 
-
-
-
 **Connect4 Game - Assignment Documentation**  
 
 ## Environment Setup
