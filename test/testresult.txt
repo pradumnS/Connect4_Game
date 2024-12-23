@@ -1,0 +1,32 @@
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from PlayerTest
+[ RUN      ] PlayerTest.ConstructorInitialization
+[       OK ] PlayerTest.ConstructorInitialization (0 ms)
+[ RUN      ] PlayerTest.GetName
+[       OK ] PlayerTest.GetName (0 ms)
+[ RUN      ] PlayerTest.GetSymbol
+[       OK ] PlayerTest.GetSymbol (0 ms)
+[ RUN      ] PlayerTest.MakeMoveValid
+[       OK ] PlayerTest.MakeMoveValid (0 ms)
+[ RUN      ] PlayerTest.MakeMoveColumnFull
+/home/ConnectFour/test/PlayerTest.cpp:72: Failure
+Expected equality of these values:
+  board.getGrid()[5][1]
+    Which is: '.' (46, 0x2E)
+  'X'
+    Which is: 'X' (88, 0x58)
+[  FAILED  ] PlayerTest.MakeMoveColumnFull (0 ms)
+[ RUN      ] PlayerTest.MakeMoveOnEmptyBoard
+[       OK ] PlayerTest.MakeMoveOnEmptyBoard (0 ms)
+[ RUN      ] PlayerTest.MultipleMoves
+[       OK ] PlayerTest.MultipleMoves (0 ms)
+[----------] 7 tests from PlayerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PlayerTest.MakeMoveColumnFull
+
+ 1 FAILED TEST

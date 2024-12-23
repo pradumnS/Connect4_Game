@@ -1,0 +1,30 @@
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from ConnectFourBoardTest
+[ RUN      ] ConnectFourBoardTest.BoardInitialization
+[       OK ] ConnectFourBoardTest.BoardInitialization (0 ms)
+[ RUN      ] ConnectFourBoardTest.BoardNotFullInitially
+[       OK ] ConnectFourBoardTest.BoardNotFullInitially (0 ms)
+[ RUN      ] ConnectFourBoardTest.BoardFull
+[       OK ] ConnectFourBoardTest.BoardFull (0 ms)
+[ RUN      ] ConnectFourBoardTest.ColumnAvailable
+[       OK ] ConnectFourBoardTest.ColumnAvailable (0 ms)
+[ RUN      ] ConnectFourBoardTest.ColumnFull
+[       OK ] ConnectFourBoardTest.ColumnFull (0 ms)
+[ RUN      ] ConnectFourBoardTest.DropDiscValid
+[       OK ] ConnectFourBoardTest.DropDiscValid (0 ms)
+[ RUN      ] ConnectFourBoardTest.DropDiscInvalidColumn
+[       OK ] ConnectFourBoardTest.DropDiscInvalidColumn (0 ms)
+[ RUN      ] ConnectFourBoardTest.DropDiscInFullColumn
+[       OK ] ConnectFourBoardTest.DropDiscInFullColumn (0 ms)
+[ RUN      ] ConnectFourBoardTest.DropDiscToColumn
+[       OK ] ConnectFourBoardTest.DropDiscToColumn (0 ms)
+[ RUN      ] ConnectFourBoardTest.DropDiscToRow
+[       OK ] ConnectFourBoardTest.DropDiscToRow (0 ms)
+[ RUN      ] ConnectFourBoardTest.dropDiscToDiagonal
+[       OK ] ConnectFourBoardTest.dropDiscToDiagonal (0 ms)
+[----------] 11 tests from ConnectFourBoardTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
