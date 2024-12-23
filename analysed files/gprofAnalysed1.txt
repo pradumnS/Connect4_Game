@@ -1,0 +1,1072 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     2243     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) const
+  0.00      0.00     0.00     2243     0.00     0.00  std::vector<char, std::allocator<char> >::operator[](unsigned long) const
+  0.00      0.00     0.00     1740     0.00     0.00  __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::base() const
+  0.00      0.00     0.00      864     0.00     0.00  bool __gnu_cxx::operator!=<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00      756     0.00     0.00  __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator++()
+  0.00      0.00     0.00      756     0.00     0.00  __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator*() const
+  0.00      0.00     0.00      252     0.00     0.00  __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::base() const
+  0.00      0.00     0.00      228     0.00     0.00  __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::__normal_iterator(char const* const&)
+  0.00      0.00     0.00      126     0.00     0.00  bool __gnu_cxx::operator!=<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >(__gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&, __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&)
+  0.00      0.00     0.00      114     0.00     0.00  std::vector<char, std::allocator<char> >::end() const
+  0.00      0.00     0.00      114     0.00     0.00  std::vector<char, std::allocator<char> >::begin() const
+  0.00      0.00     0.00      108     0.00     0.00  __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator++()
+  0.00      0.00     0.00      108     0.00     0.00  __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator*() const
+  0.00      0.00     0.00       78     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long)
+  0.00      0.00     0.00       78     0.00     0.00  std::vector<char, std::allocator<char> >::operator[](unsigned long)
+  0.00      0.00     0.00       36     0.00     0.00  __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::__normal_iterator(std::vector<char, std::allocator<char> >* const&)
+  0.00      0.00     0.00       29     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.00     0.00       25     0.00     0.00  ConnectFourBoard::getGrid() const
+  0.00      0.00     0.00       18     0.00     0.00  ConnectFourBoard::displayBoard() const
+  0.00      0.00     0.00       18     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::end()
+  0.00      0.00     0.00       18     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::begin()
+  0.00      0.00     0.00       17     0.00     0.00  checkWinner(ConnectFourBoard const&, char)
+  0.00      0.00     0.00       16     0.00     0.00  ConnectFourBoard::isFull() const
+  0.00      0.00     0.00       15     0.00     0.00  ConnectFourBoard::isColumnFull(int) const
+  0.00      0.00     0.00       14     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator()
+  0.00      0.00     0.00       13     0.00     0.00  ConnectFourBoard::dropDisc(int, char)
+  0.00      0.00     0.00       12     0.00     0.00  std::vector<char, std::allocator<char> >* std::__addressof<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >&)
+  0.00      0.00     0.00       12     0.00     0.00  __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > std::__miter_base<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >)
+  0.00      0.00     0.00       12     0.00     0.00  char const* std::__niter_base<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >)
+  0.00      0.00     0.00        9     0.00     0.00  Player::makeMove(ConnectFourBoard&)
+  0.00      0.00     0.00        9     0.00     0.00  int&& std::forward<int>(std::remove_reference<int>::type&)
+  0.00      0.00     0.00        8     0.00     0.00  Computer::makeMove(ConnectFourBoard&)
+  0.00      0.00     0.00        8     0.00     0.00  bool __gnu_cxx::__is_null_pointer<char const>(char const*)
+  0.00      0.00     0.00        8     0.00     0.00  Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const
+  0.00      0.00     0.00        8     0.00     0.00  __gnu_cxx::new_allocator<char>::_M_max_size() const
+  0.00      0.00     0.00        8     0.00     0.00  std::char_traits<char>::length(char const*)
+  0.00      0.00     0.00        8     0.00     0.00  std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::~pair()
+  0.00      0.00     0.00        8     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  0.00      0.00     0.00        8     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  0.00      0.00     0.00        8     0.00     0.00  std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag)
+  0.00      0.00     0.00        8     0.00     0.00  std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&)
+  0.00      0.00     0.00        8     0.00     0.00  std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*)
+  0.00      0.00     0.00        7     0.00     0.00  __gnu_cxx::new_allocator<char>::deallocate(char*, unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        7     0.00     0.00  void std::_Destroy_aux<true>::__destroy<char*>(char*, char*)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_Vector_impl::_Vector_impl(std::allocator<char> const&)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_M_deallocate(char*, unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_M_create_storage(unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_Vector_impl_data::_Vector_impl_data()
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&)
+  0.00      0.00     0.00        7     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::~_Vector_base()
+  0.00      0.00     0.00        7     0.00     0.00  std::allocator_traits<std::allocator<char> >::deallocate(std::allocator<char>&, char*, unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long)
+  0.00      0.00     0.00        7     0.00     0.00  std::vector<char, std::allocator<char> >::~vector()
+  0.00      0.00     0.00        7     0.00     0.00  int& std::forward<int&>(std::remove_reference<int&>::type&)
+  0.00      0.00     0.00        7     0.00     0.00  void std::_Destroy<char*>(char*, char*)
+  0.00      0.00     0.00        7     0.00     0.00  void std::_Destroy<char*, char>(char*, char*, std::allocator<char>&)
+  0.00      0.00     0.00        6     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::~new_allocator()
+  0.00      0.00     0.00        6     0.00     0.00  __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char> const&)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00        6     0.00     0.00  std::vector<char, std::allocator<char> >::size() const
+  0.00      0.00     0.00        6     0.00     0.00  std::allocator<std::vector<char, std::allocator<char> > >::~allocator()
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<char>(char const*, char const*, char*)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_copy_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data const&)
+  0.00      0.00     0.00        6     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator()
+  0.00      0.00     0.00        6     0.00     0.00  std::allocator_traits<std::allocator<char> >::select_on_container_copy_construction(std::allocator<char> const&)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  0.00      0.00     0.00        6     0.00     0.00  std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__niter_base<char*>(char*)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__niter_wrap<char*>(char* const&, char*)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__copy_move_a1<false, char const*, char*>(char const*, char const*, char*)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__copy_move_a2<false, char const*, char*>(char const*, char const*, char*)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::uninitialized_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, std::allocator<char>&)
+  0.00      0.00     0.00        6     0.00     0.00  char* std::copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  0.00      0.00     0.00        6     0.00     0.00  std::vector<char, std::allocator<char> > const& std::forward<std::vector<char, std::allocator<char> > const&>(std::remove_reference<std::vector<char, std::allocator<char> > const&>::type&)
+  0.00      0.00     0.00        6     0.00     0.00  void std::_Destroy<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*)
+  0.00      0.00     0.00        6     0.00     0.00  operator new(unsigned long, void*)
+  0.00      0.00     0.00        5     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data()
+  0.00      0.00     0.00        4     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator(__gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [5], true>(char const (&) [5], std::pair<int, int> const&)
+  0.00      0.00     0.00        4     0.00     0.00  std::pair<int, int>::pair<int, int, true>(int&&, int&&)
+  0.00      0.00     0.00        4     0.00     0.00  char const (&std::forward<char const (&) [5]>(std::remove_reference<char const (&) [5]>::type&)) [5]
+  0.00      0.00     0.00        3     0.00     0.00  void std::_Destroy_aux<false>::__destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*)
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::~_Vector_impl()
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_deallocate(std::vector<char, std::allocator<char> >*, unsigned long)
+  0.00      0.00     0.00        3     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~_Vector_base()
+  0.00      0.00     0.00        3     0.00     0.00  std::pair<int, int>::pair<int&, int&, true>(int&, int&)
+  0.00      0.00     0.00        3     0.00     0.00  void std::_Destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*)
+  0.00      0.00     0.00        3     0.00     0.00  void std::_Destroy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::allocator<std::vector<char, std::allocator<char> > >&)
+  0.00      0.00     0.00        2     0.00     0.00  ConnectFourBoard::dropDiscToColumn(int, int, char)
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator()
+  0.00      0.00     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::_M_max_size() const
+  0.00      0.00     0.00        2     0.00     0.00  std::allocator<std::vector<char, std::allocator<char> > >::allocator()
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_swap_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data&)
+  0.00      0.00     0.00        2     0.00     0.00  std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [7], true>(char const (&) [7], std::pair<int, int> const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [4], true>(char const (&) [4], std::pair<int, int> const&)
+  0.00      0.00     0.00        2     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector()
+  0.00      0.00     0.00        2     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  0.00      0.00     0.00        2     0.00     0.00  char const (&std::forward<char const (&) [4]>(std::remove_reference<char const (&) [4]>::type&)) [4]
+  0.00      0.00     0.00        2     0.00     0.00  char const (&std::forward<char const (&) [7]>(std::remove_reference<char const (&) [7]>::type&)) [7]
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      0.00     0.00        1     0.00     0.00  ConnectFourBoard::dropDiscToGap(int, int, char)
+  0.00      0.00     0.00        1     0.00     0.00  ConnectFourBoard::dropDiscToRow(int, int, char)
+  0.00      0.00     0.00        1     0.00     0.00  ConnectFourBoard::initBoard()
+  0.00      0.00     0.00        1     0.00     0.00  Player::Player(char)
+  0.00      0.00     0.00        1     0.00     0.00  Computer::Computer(char)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::deallocate(std::vector<char, std::allocator<char> >*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::max_size() const
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<char>::max_size() const
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::get_allocator() const
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() const
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl()
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_create_storage(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base()
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::deallocate(std::allocator<std::vector<char, std::allocator<char> > >&, std::vector<char, std::allocator<char> >*, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::max_size(std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::allocator_traits<std::allocator<char> >::max_size(std::allocator<char> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  char* std::__uninitialized_fill_n<true>::__uninit_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::pair<int, int>::pair<int&, int, true>(int&, int&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_max_size(std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_fill_initialize(unsigned long, std::vector<char, std::allocator<char> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector()
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >::_S_max_size(std::allocator<char> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >::_S_check_init_len(unsigned long, std::allocator<char> const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >::_M_fill_initialize(unsigned long, char const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&)
+  0.00      0.00     0.00        1     0.00     0.00  char* std::__fill_n_a<char*, unsigned long, char>(char*, unsigned long, char const&, std::random_access_iterator_tag)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__alloc_on_move<std::allocator<std::vector<char, std::allocator<char> > > >(std::allocator<std::vector<char, std::allocator<char> > >&, std::allocator<std::vector<char, std::allocator<char> > >&)
+  0.00      0.00     0.00        1     0.00     0.00  std::__size_to_integer(unsigned long)
+  0.00      0.00     0.00        1     0.00     0.00  std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >* std::uninitialized_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  char* std::uninitialized_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&)
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n_a<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > >&)
+  0.00      0.00     0.00        1     0.00     0.00  char* std::__uninitialized_fill_n_a<char*, unsigned long, char, char>(char*, unsigned long, char const&, std::allocator<char>&)
+  0.00      0.00     0.00        1     0.00     0.00  std::remove_reference<std::allocator<std::vector<char, std::allocator<char> > >&>::type&& std::move<std::allocator<std::vector<char, std::allocator<char> > >&>(std::allocator<std::vector<char, std::allocator<char> > >&)
+  0.00      0.00     0.00        1     0.00     0.00  std::remove_reference<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>::type&& std::move<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&)
+  0.00      0.00     0.00        1     0.00     0.00  char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::__fill_a<char*, char>(char*, char*, char const&)
+  0.00      0.00     0.00        1     0.00     0.00  __gnu_cxx::__enable_if<std::__is_byte<char>::__value, void>::__type std::__fill_a1<char>(char*, char*, char const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00     955/2243        Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+                0.00    0.00    1288/2243        checkWinner(ConnectFourBoard const&, char) [29]
+[8]      0.0    0.00    0.00    2243         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) const [8]
+-----------------------------------------------
+                0.00    0.00     955/2243        Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+                0.00    0.00    1288/2243        checkWinner(ConnectFourBoard const&, char) [29]
+[9]      0.0    0.00    0.00    2243         std::vector<char, std::allocator<char> >::operator[](unsigned long) const [9]
+-----------------------------------------------
+                0.00    0.00      12/1740        char const* std::__niter_base<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >) [36]
+                0.00    0.00    1728/1740        bool __gnu_cxx::operator!=<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&) [11]
+[10]     0.0    0.00    0.00    1740         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::base() const [10]
+-----------------------------------------------
+                0.00    0.00     864/864         ConnectFourBoard::displayBoard() const [26]
+[11]     0.0    0.00    0.00     864         bool __gnu_cxx::operator!=<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&) [11]
+                0.00    0.00    1728/1740        __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::base() const [10]
+-----------------------------------------------
+                0.00    0.00     756/756         ConnectFourBoard::displayBoard() const [26]
+[12]     0.0    0.00    0.00     756         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator++() [12]
+-----------------------------------------------
+                0.00    0.00     756/756         ConnectFourBoard::displayBoard() const [26]
+[13]     0.0    0.00    0.00     756         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator*() const [13]
+-----------------------------------------------
+                0.00    0.00     252/252         bool __gnu_cxx::operator!=<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >(__gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&, __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&) [16]
+[14]     0.0    0.00    0.00     252         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::base() const [14]
+-----------------------------------------------
+                0.00    0.00     114/228         std::vector<char, std::allocator<char> >::begin() const [18]
+                0.00    0.00     114/228         std::vector<char, std::allocator<char> >::end() const [17]
+[15]     0.0    0.00    0.00     228         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::__normal_iterator(char const* const&) [15]
+-----------------------------------------------
+                0.00    0.00     126/126         ConnectFourBoard::displayBoard() const [26]
+[16]     0.0    0.00    0.00     126         bool __gnu_cxx::operator!=<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >(__gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&, __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&) [16]
+                0.00    0.00     252/252         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::base() const [14]
+-----------------------------------------------
+                0.00    0.00       6/114         std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+                0.00    0.00     108/114         ConnectFourBoard::displayBoard() const [26]
+[17]     0.0    0.00    0.00     114         std::vector<char, std::allocator<char> >::end() const [17]
+                0.00    0.00     114/228         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::__normal_iterator(char const* const&) [15]
+-----------------------------------------------
+                0.00    0.00       6/114         std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+                0.00    0.00     108/114         ConnectFourBoard::displayBoard() const [26]
+[18]     0.0    0.00    0.00     114         std::vector<char, std::allocator<char> >::begin() const [18]
+                0.00    0.00     114/228         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::__normal_iterator(char const* const&) [15]
+-----------------------------------------------
+                0.00    0.00     108/108         ConnectFourBoard::displayBoard() const [26]
+[19]     0.0    0.00    0.00     108         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator++() [19]
+-----------------------------------------------
+                0.00    0.00     108/108         ConnectFourBoard::displayBoard() const [26]
+[20]     0.0    0.00    0.00     108         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator*() const [20]
+-----------------------------------------------
+                0.00    0.00       2/78          ConnectFourBoard::dropDiscToRow(int, int, char) [120]
+                0.00    0.00       2/78          ConnectFourBoard::dropDiscToGap(int, int, char) [119]
+                0.00    0.00       6/78          ConnectFourBoard::dropDiscToColumn(int, int, char) [103]
+                0.00    0.00      15/78          ConnectFourBoard::isColumnFull(int) const [31]
+                0.00    0.00      16/78          ConnectFourBoard::isFull() const [30]
+                0.00    0.00      37/78          ConnectFourBoard::dropDisc(int, char) [33]
+[21]     0.0    0.00    0.00      78         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+-----------------------------------------------
+                0.00    0.00       2/78          ConnectFourBoard::dropDiscToRow(int, int, char) [120]
+                0.00    0.00       2/78          ConnectFourBoard::dropDiscToGap(int, int, char) [119]
+                0.00    0.00       6/78          ConnectFourBoard::dropDiscToColumn(int, int, char) [103]
+                0.00    0.00      15/78          ConnectFourBoard::isColumnFull(int) const [31]
+                0.00    0.00      16/78          ConnectFourBoard::isFull() const [30]
+                0.00    0.00      37/78          ConnectFourBoard::dropDisc(int, char) [33]
+[22]     0.0    0.00    0.00      78         std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+-----------------------------------------------
+                0.00    0.00      18/36          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::begin() [28]
+                0.00    0.00      18/36          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::end() [27]
+[23]     0.0    0.00    0.00      36         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::__normal_iterator(std::vector<char, std::allocator<char> >* const&) [23]
+-----------------------------------------------
+                0.00    0.00      29/29          Computer::makeMove(ConnectFourBoard&) [39]
+[24]     0.0    0.00    0.00      29         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [24]
+-----------------------------------------------
+                0.00    0.00       8/25          Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+                0.00    0.00      17/25          checkWinner(ConnectFourBoard const&, char) [29]
+[25]     0.0    0.00    0.00      25         ConnectFourBoard::getGrid() const [25]
+-----------------------------------------------
+                0.00    0.00       1/18          main [6]
+                0.00    0.00       8/18          Computer::makeMove(ConnectFourBoard&) [39]
+                0.00    0.00       9/18          Player::makeMove(ConnectFourBoard&) [37]
+[26]     0.0    0.00    0.00      18         ConnectFourBoard::displayBoard() const [26]
+                0.00    0.00     864/864         bool __gnu_cxx::operator!=<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&) [11]
+                0.00    0.00     756/756         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator*() const [13]
+                0.00    0.00     756/756         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator++() [12]
+                0.00    0.00     126/126         bool __gnu_cxx::operator!=<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >(__gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&, __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&) [16]
+                0.00    0.00     108/108         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator*() const [20]
+                0.00    0.00     108/114         std::vector<char, std::allocator<char> >::begin() const [18]
+                0.00    0.00     108/114         std::vector<char, std::allocator<char> >::end() const [17]
+                0.00    0.00     108/108         __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator++() [19]
+                0.00    0.00      18/18          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::begin() [28]
+                0.00    0.00      18/18          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::end() [27]
+-----------------------------------------------
+                0.00    0.00      18/18          ConnectFourBoard::displayBoard() const [26]
+[27]     0.0    0.00    0.00      18         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::end() [27]
+                0.00    0.00      18/36          __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::__normal_iterator(std::vector<char, std::allocator<char> >* const&) [23]
+-----------------------------------------------
+                0.00    0.00      18/18          ConnectFourBoard::displayBoard() const [26]
+[28]     0.0    0.00    0.00      18         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::begin() [28]
+                0.00    0.00      18/36          __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::__normal_iterator(std::vector<char, std::allocator<char> >* const&) [23]
+-----------------------------------------------
+                0.00    0.00      17/17          main [6]
+[29]     0.0    0.00    0.00      17         checkWinner(ConnectFourBoard const&, char) [29]
+                0.00    0.00    1288/2243        std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) const [8]
+                0.00    0.00    1288/2243        std::vector<char, std::allocator<char> >::operator[](unsigned long) const [9]
+                0.00    0.00      17/25          ConnectFourBoard::getGrid() const [25]
+-----------------------------------------------
+                0.00    0.00      16/16          main [6]
+[30]     0.0    0.00    0.00      16         ConnectFourBoard::isFull() const [30]
+                0.00    0.00      16/78          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+                0.00    0.00      16/78          std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+-----------------------------------------------
+                0.00    0.00       2/15          ConnectFourBoard::dropDiscToColumn(int, int, char) [103]
+                0.00    0.00      13/15          ConnectFourBoard::dropDisc(int, char) [33]
+[31]     0.0    0.00    0.00      15         ConnectFourBoard::isColumnFull(int) const [31]
+                0.00    0.00      15/78          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+                0.00    0.00      15/78          std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+-----------------------------------------------
+                0.00    0.00       1/14          std::vector<char, std::allocator<char> >::_M_fill_initialize(unsigned long, char const&) [153]
+                0.00    0.00       6/14          std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+                0.00    0.00       7/14          std::vector<char, std::allocator<char> >::~vector() [63]
+[32]     0.0    0.00    0.00      14         std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() [32]
+-----------------------------------------------
+                0.00    0.00       4/13          Computer::makeMove(ConnectFourBoard&) [39]
+                0.00    0.00       9/13          Player::makeMove(ConnectFourBoard&) [37]
+[33]     0.0    0.00    0.00      13         ConnectFourBoard::dropDisc(int, char) [33]
+                0.00    0.00      37/78          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+                0.00    0.00      37/78          std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+                0.00    0.00      13/15          ConnectFourBoard::isColumnFull(int) const [31]
+-----------------------------------------------
+                0.00    0.00       6/12          void std::_Destroy_aux<false>::__destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [96]
+                0.00    0.00       6/12          std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [140]
+[34]     0.0    0.00    0.00      12         std::vector<char, std::allocator<char> >* std::__addressof<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >&) [34]
+-----------------------------------------------
+                0.00    0.00      12/12          char* std::copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [86]
+[35]     0.0    0.00    0.00      12         __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > std::__miter_base<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >) [35]
+-----------------------------------------------
+                0.00    0.00      12/12          char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [81]
+[36]     0.0    0.00    0.00      12         char const* std::__niter_base<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >) [36]
+                0.00    0.00      12/1740        __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::base() const [10]
+-----------------------------------------------
+                0.00    0.00       9/9           main [6]
+[37]     0.0    0.00    0.00       9         Player::makeMove(ConnectFourBoard&) [37]
+                0.00    0.00       9/13          ConnectFourBoard::dropDisc(int, char) [33]
+                0.00    0.00       9/18          ConnectFourBoard::displayBoard() const [26]
+-----------------------------------------------
+                0.00    0.00       1/9           std::pair<int, int>::pair<int&, int, true>(int&, int&&) [142]
+                0.00    0.00       8/9           std::pair<int, int>::pair<int, int, true>(int&&, int&&) [94]
+[38]     0.0    0.00    0.00       9         int&& std::forward<int>(std::remove_reference<int>::type&) [38]
+-----------------------------------------------
+                0.00    0.00       8/8           main [6]
+[39]     0.0    0.00    0.00       8         Computer::makeMove(ConnectFourBoard&) [39]
+                0.00    0.00      29/29          bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [24]
+                0.00    0.00       8/8           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+                0.00    0.00       8/18          ConnectFourBoard::displayBoard() const [26]
+                0.00    0.00       8/8           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::~pair() [44]
+                0.00    0.00       4/13          ConnectFourBoard::dropDisc(int, char) [33]
+                0.00    0.00       2/2           ConnectFourBoard::dropDiscToColumn(int, int, char) [103]
+                0.00    0.00       1/1           ConnectFourBoard::dropDiscToRow(int, int, char) [120]
+                0.00    0.00       1/1           ConnectFourBoard::dropDiscToGap(int, int, char) [119]
+-----------------------------------------------
+                0.00    0.00       8/8           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [45]
+[40]     0.0    0.00    0.00       8         bool __gnu_cxx::__is_null_pointer<char const>(char const*) [40]
+-----------------------------------------------
+                0.00    0.00       8/8           Computer::makeMove(ConnectFourBoard&) [39]
+[41]     0.0    0.00    0.00       8         Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+                0.00    0.00     955/2243        std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) const [8]
+                0.00    0.00     955/2243        std::vector<char, std::allocator<char> >::operator[](unsigned long) const [9]
+                0.00    0.00       8/25          ConnectFourBoard::getGrid() const [25]
+                0.00    0.00       4/4           std::pair<int, int>::pair<int, int, true>(int&&, int&&) [94]
+                0.00    0.00       4/4           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [5], true>(char const (&) [5], std::pair<int, int> const&) [93]
+                0.00    0.00       3/3           std::pair<int, int>::pair<int&, int&, true>(int&, int&) [100]
+                0.00    0.00       2/2           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [4], true>(char const (&) [4], std::pair<int, int> const&) [110]
+                0.00    0.00       2/2           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [7], true>(char const (&) [7], std::pair<int, int> const&) [109]
+                0.00    0.00       1/1           std::pair<int, int>::pair<int&, int, true>(int&, int&&) [142]
+-----------------------------------------------
+                0.00    0.00       1/8           __gnu_cxx::new_allocator<char>::max_size() const [127]
+                0.00    0.00       7/8           __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) [51]
+[42]     0.0    0.00    0.00       8         __gnu_cxx::new_allocator<char>::_M_max_size() const [42]
+-----------------------------------------------
+                0.00    0.00       8/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [46]
+[43]     0.0    0.00    0.00       8         std::char_traits<char>::length(char const*) [43]
+-----------------------------------------------
+                0.00    0.00       8/8           Computer::makeMove(ConnectFourBoard&) [39]
+[44]     0.0    0.00    0.00       8         std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::~pair() [44]
+-----------------------------------------------
+                0.00    0.00       8/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [46]
+[45]     0.0    0.00    0.00       8         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [45]
+                0.00    0.00       8/8           bool __gnu_cxx::__is_null_pointer<char const>(char const*) [40]
+                0.00    0.00       8/8           std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [49]
+-----------------------------------------------
+                0.00    0.00       2/8           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [4], true>(char const (&) [4], std::pair<int, int> const&) [110]
+                0.00    0.00       2/8           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [7], true>(char const (&) [7], std::pair<int, int> const&) [109]
+                0.00    0.00       4/8           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [5], true>(char const (&) [5], std::pair<int, int> const&) [93]
+[46]     0.0    0.00    0.00       8         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [46]
+                0.00    0.00       8/8           std::char_traits<char>::length(char const*) [43]
+                0.00    0.00       8/8           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [45]
+-----------------------------------------------
+                0.00    0.00       8/8           std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [49]
+[47]     0.0    0.00    0.00       8         std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag) [47]
+-----------------------------------------------
+                0.00    0.00       8/8           std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [49]
+[48]     0.0    0.00    0.00       8         std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&) [48]
+-----------------------------------------------
+                0.00    0.00       8/8           void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [45]
+[49]     0.0    0.00    0.00       8         std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*) [49]
+                0.00    0.00       8/8           std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&) [48]
+                0.00    0.00       8/8           std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag) [47]
+-----------------------------------------------
+                0.00    0.00       7/7           std::allocator_traits<std::allocator<char> >::deallocate(std::allocator<char>&, char*, unsigned long) [61]
+[50]     0.0    0.00    0.00       7         __gnu_cxx::new_allocator<char>::deallocate(char*, unsigned long) [50]
+-----------------------------------------------
+                0.00    0.00       7/7           std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) [62]
+[51]     0.0    0.00    0.00       7         __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) [51]
+                0.00    0.00       7/8           __gnu_cxx::new_allocator<char>::_M_max_size() const [42]
+-----------------------------------------------
+                0.00    0.00       7/7           void std::_Destroy<char*>(char*, char*) [65]
+[52]     0.0    0.00    0.00       7         void std::_Destroy_aux<true>::__destroy<char*>(char*, char*) [52]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_M_create_storage(unsigned long) [57]
+[53]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) [53]
+                0.00    0.00       7/7           std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) [62]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) [59]
+[54]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_Vector_impl::_Vector_impl(std::allocator<char> const&) [54]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_Vector_impl_data::_Vector_impl_data() [58]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::~_Vector_base() [60]
+[55]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_Vector_impl::~_Vector_impl() [55]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::~_Vector_base() [60]
+[56]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_M_deallocate(char*, unsigned long) [56]
+                0.00    0.00       7/7           std::allocator_traits<std::allocator<char> >::deallocate(std::allocator<char>&, char*, unsigned long) [61]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) [59]
+[57]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_M_create_storage(unsigned long) [57]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) [53]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_Vector_impl::_Vector_impl(std::allocator<char> const&) [54]
+[58]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_Vector_impl_data::_Vector_impl_data() [58]
+-----------------------------------------------
+                0.00    0.00       1/7           std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&) [154]
+                0.00    0.00       6/7           std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+[59]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) [59]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_Vector_impl::_Vector_impl(std::allocator<char> const&) [54]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_M_create_storage(unsigned long) [57]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<char, std::allocator<char> >::~vector() [63]
+[60]     0.0    0.00    0.00       7         std::_Vector_base<char, std::allocator<char> >::~_Vector_base() [60]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_M_deallocate(char*, unsigned long) [56]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_Vector_impl::~_Vector_impl() [55]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_M_deallocate(char*, unsigned long) [56]
+[61]     0.0    0.00    0.00       7         std::allocator_traits<std::allocator<char> >::deallocate(std::allocator<char>&, char*, unsigned long) [61]
+                0.00    0.00       7/7           __gnu_cxx::new_allocator<char>::deallocate(char*, unsigned long) [50]
+-----------------------------------------------
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) [53]
+[62]     0.0    0.00    0.00       7         std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) [62]
+                0.00    0.00       7/7           __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) [51]
+-----------------------------------------------
+                0.00    0.00       1/7           ConnectFourBoard::initBoard() [121]
+                0.00    0.00       6/7           void std::_Destroy<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*) [88]
+[63]     0.0    0.00    0.00       7         std::vector<char, std::allocator<char> >::~vector() [63]
+                0.00    0.00       7/14          std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() [32]
+                0.00    0.00       7/7           std::_Vector_base<char, std::allocator<char> >::~_Vector_base() [60]
+                0.00    0.00       7/7           void std::_Destroy<char*, char>(char*, char*, std::allocator<char>&) [66]
+-----------------------------------------------
+                0.00    0.00       1/7           std::pair<int, int>::pair<int&, int, true>(int&, int&&) [142]
+                0.00    0.00       6/7           std::pair<int, int>::pair<int&, int&, true>(int&, int&) [100]
+[64]     0.0    0.00    0.00       7         int& std::forward<int&>(std::remove_reference<int&>::type&) [64]
+-----------------------------------------------
+                0.00    0.00       7/7           void std::_Destroy<char*, char>(char*, char*, std::allocator<char>&) [66]
+[65]     0.0    0.00    0.00       7         void std::_Destroy<char*>(char*, char*) [65]
+                0.00    0.00       7/7           void std::_Destroy_aux<true>::__destroy<char*>(char*, char*) [52]
+-----------------------------------------------
+                0.00    0.00       7/7           std::vector<char, std::allocator<char> >::~vector() [63]
+[66]     0.0    0.00    0.00       7         void std::_Destroy<char*, char>(char*, char*, std::allocator<char>&) [66]
+                0.00    0.00       7/7           void std::_Destroy<char*>(char*, char*) [65]
+-----------------------------------------------
+                0.00    0.00       6/6           std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [71]
+[67]     0.0    0.00    0.00       6         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::~new_allocator() [67]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+[68]     0.0    0.00    0.00       6         __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char> const&) [68]
+                0.00    0.00       6/6           std::allocator_traits<std::allocator<char> >::select_on_container_copy_construction(std::allocator<char> const&) [75]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+[69]     0.0    0.00    0.00       6         std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() const [69]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+[70]     0.0    0.00    0.00       6         std::vector<char, std::allocator<char> >::size() const [70]
+-----------------------------------------------
+                0.00    0.00       1/6           ConnectFourBoard::initBoard() [121]
+                0.00    0.00       1/6           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [145]
+                0.00    0.00       1/6           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+                0.00    0.00       3/6           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::~_Vector_impl() [97]
+[71]     0.0    0.00    0.00       6         std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [71]
+                0.00    0.00       6/6           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::~new_allocator() [67]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__copy_move_a2<false, char const*, char*>(char const*, char const*, char*) [83]
+[72]     0.0    0.00    0.00       6         char* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<char>(char const*, char const*, char*) [72]
+-----------------------------------------------
+                0.00    0.00       6/6           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_swap_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data&) [108]
+[73]     0.0    0.00    0.00       6         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_copy_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data const&) [73]
+-----------------------------------------------
+                0.00    0.00       1/6           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_fill_initialize(unsigned long, std::vector<char, std::allocator<char> > const&) [146]
+                0.00    0.00       2/6           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+                0.00    0.00       3/6           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector() [111]
+[74]     0.0    0.00    0.00       6         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() [74]
+-----------------------------------------------
+                0.00    0.00       6/6           __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char> const&) [68]
+[75]     0.0    0.00    0.00       6         std::allocator_traits<std::allocator<char> >::select_on_container_copy_construction(std::allocator<char> const&) [75]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::uninitialized_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [84]
+[76]     0.0    0.00    0.00       6         char* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [76]
+                0.00    0.00       6/6           char* std::copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [86]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&) [78]
+[77]     0.0    0.00    0.00       6         std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+                0.00    0.00       6/6           std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() const [69]
+                0.00    0.00       6/6           __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char> const&) [68]
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >::size() const [70]
+                0.00    0.00       6/7           std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) [59]
+                0.00    0.00       6/14          std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() [32]
+                0.00    0.00       6/114         std::vector<char, std::allocator<char> >::end() const [17]
+                0.00    0.00       6/114         std::vector<char, std::allocator<char> >::begin() const [18]
+                0.00    0.00       6/6           char* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, std::allocator<char>&) [85]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [140]
+[78]     0.0    0.00    0.00       6         void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&) [78]
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> > const& std::forward<std::vector<char, std::allocator<char> > const&>(std::remove_reference<std::vector<char, std::allocator<char> > const&>::type&) [87]
+                0.00    0.00       6/6           operator new(unsigned long, void*) [89]
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [81]
+[79]     0.0    0.00    0.00       6         char* std::__niter_base<char*>(char*) [79]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [81]
+[80]     0.0    0.00    0.00       6         char* std::__niter_wrap<char*>(char* const&, char*) [80]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [86]
+[81]     0.0    0.00    0.00       6         char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [81]
+                0.00    0.00      12/12          char const* std::__niter_base<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >) [36]
+                0.00    0.00       6/6           char* std::__niter_base<char*>(char*) [79]
+                0.00    0.00       6/6           char* std::__copy_move_a1<false, char const*, char*>(char const*, char const*, char*) [82]
+                0.00    0.00       6/6           char* std::__niter_wrap<char*>(char* const&, char*) [80]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [81]
+[82]     0.0    0.00    0.00       6         char* std::__copy_move_a1<false, char const*, char*>(char const*, char const*, char*) [82]
+                0.00    0.00       6/6           char* std::__copy_move_a2<false, char const*, char*>(char const*, char const*, char*) [83]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__copy_move_a1<false, char const*, char*>(char const*, char const*, char*) [82]
+[83]     0.0    0.00    0.00       6         char* std::__copy_move_a2<false, char const*, char*>(char const*, char const*, char*) [83]
+                0.00    0.00       6/6           char* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<char>(char const*, char const*, char*) [72]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, std::allocator<char>&) [85]
+[84]     0.0    0.00    0.00       6         char* std::uninitialized_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [84]
+                0.00    0.00       6/6           char* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [76]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&) [77]
+[85]     0.0    0.00    0.00       6         char* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, std::allocator<char>&) [85]
+                0.00    0.00       6/6           char* std::uninitialized_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [84]
+-----------------------------------------------
+                0.00    0.00       6/6           char* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [76]
+[86]     0.0    0.00    0.00       6         char* std::copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [86]
+                0.00    0.00      12/12          __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > std::__miter_base<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >) [35]
+                0.00    0.00       6/6           char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [81]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&) [78]
+[87]     0.0    0.00    0.00       6         std::vector<char, std::allocator<char> > const& std::forward<std::vector<char, std::allocator<char> > const&>(std::remove_reference<std::vector<char, std::allocator<char> > const&>::type&) [87]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Destroy_aux<false>::__destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [96]
+[88]     0.0    0.00    0.00       6         void std::_Destroy<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*) [88]
+                0.00    0.00       6/7           std::vector<char, std::allocator<char> >::~vector() [63]
+-----------------------------------------------
+                0.00    0.00       6/6           void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&) [78]
+[89]     0.0    0.00    0.00       6         operator new(unsigned long, void*) [89]
+-----------------------------------------------
+                0.00    0.00       1/5           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl() [131]
+                0.00    0.00       2/5           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&) [107]
+                0.00    0.00       2/5           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_swap_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data&) [108]
+[90]     0.0    0.00    0.00       5         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data() [90]
+-----------------------------------------------
+                0.00    0.00       4/4           std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&) [92]
+[91]     0.0    0.00    0.00       4         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator(__gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > > const&) [91]
+-----------------------------------------------
+                0.00    0.00       1/4           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [145]
+                0.00    0.00       1/4           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::get_allocator() const [128]
+                0.00    0.00       2/4           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&) [107]
+[92]     0.0    0.00    0.00       4         std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&) [92]
+                0.00    0.00       4/4           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator(__gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > > const&) [91]
+-----------------------------------------------
+                0.00    0.00       4/4           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+[93]     0.0    0.00    0.00       4         std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [5], true>(char const (&) [5], std::pair<int, int> const&) [93]
+                0.00    0.00       4/4           char const (&std::forward<char const (&) [5]>(std::remove_reference<char const (&) [5]>::type&)) [5] [95]
+                0.00    0.00       4/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [46]
+-----------------------------------------------
+                0.00    0.00       4/4           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+[94]     0.0    0.00    0.00       4         std::pair<int, int>::pair<int, int, true>(int&&, int&&) [94]
+                0.00    0.00       8/9           int&& std::forward<int>(std::remove_reference<int>::type&) [38]
+-----------------------------------------------
+                0.00    0.00       4/4           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [5], true>(char const (&) [5], std::pair<int, int> const&) [93]
+[95]     0.0    0.00    0.00       4         char const (&std::forward<char const (&) [5]>(std::remove_reference<char const (&) [5]>::type&)) [5] [95]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::_Destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [101]
+[96]     0.0    0.00    0.00       3         void std::_Destroy_aux<false>::__destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [96]
+                0.00    0.00       6/12          std::vector<char, std::allocator<char> >* std::__addressof<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >&) [34]
+                0.00    0.00       6/6           void std::_Destroy<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*) [88]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~_Vector_base() [99]
+[97]     0.0    0.00    0.00       3         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::~_Vector_impl() [97]
+                0.00    0.00       3/6           std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [71]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~_Vector_base() [99]
+[98]     0.0    0.00    0.00       3         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [98]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::deallocate(std::allocator<std::vector<char, std::allocator<char> > >&, std::vector<char, std::allocator<char> >*, unsigned long) [136]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector() [111]
+[99]     0.0    0.00    0.00       3         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~_Vector_base() [99]
+                0.00    0.00       3/3           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [98]
+                0.00    0.00       3/3           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::~_Vector_impl() [97]
+-----------------------------------------------
+                0.00    0.00       3/3           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+[100]    0.0    0.00    0.00       3         std::pair<int, int>::pair<int&, int&, true>(int&, int&) [100]
+                0.00    0.00       6/7           int& std::forward<int&>(std::remove_reference<int&>::type&) [64]
+-----------------------------------------------
+                0.00    0.00       3/3           void std::_Destroy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::allocator<std::vector<char, std::allocator<char> > >&) [102]
+[101]    0.0    0.00    0.00       3         void std::_Destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [101]
+                0.00    0.00       3/3           void std::_Destroy_aux<false>::__destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [96]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector() [111]
+[102]    0.0    0.00    0.00       3         void std::_Destroy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::allocator<std::vector<char, std::allocator<char> > >&) [102]
+                0.00    0.00       3/3           void std::_Destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [101]
+-----------------------------------------------
+                0.00    0.00       2/2           Computer::makeMove(ConnectFourBoard&) [39]
+[103]    0.0    0.00    0.00       2         ConnectFourBoard::dropDiscToColumn(int, int, char) [103]
+                0.00    0.00       6/78          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+                0.00    0.00       6/78          std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+                0.00    0.00       2/15          ConnectFourBoard::isColumnFull(int) const [31]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator<std::vector<char, std::allocator<char> > >::allocator() [106]
+[104]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator() [104]
+-----------------------------------------------
+                0.00    0.00       1/2           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::max_size() const [126]
+                0.00    0.00       1/2           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) [125]
+[105]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::_M_max_size() const [105]
+-----------------------------------------------
+                0.00    0.00       1/2           ConnectFourBoard::initBoard() [121]
+                0.00    0.00       1/2           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl() [131]
+[106]    0.0    0.00    0.00       2         std::allocator<std::vector<char, std::allocator<char> > >::allocator() [106]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator() [104]
+-----------------------------------------------
+                0.00    0.00       1/2           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [133]
+                0.00    0.00       1/2           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(std::allocator<std::vector<char, std::allocator<char> > > const&) [134]
+[107]    0.0    0.00    0.00       2         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&) [107]
+                0.00    0.00       2/4           std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&) [92]
+                0.00    0.00       2/5           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data() [90]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+[108]    0.0    0.00    0.00       2         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_swap_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data&) [108]
+                0.00    0.00       6/6           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_copy_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data const&) [73]
+                0.00    0.00       2/5           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data() [90]
+-----------------------------------------------
+                0.00    0.00       2/2           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+[109]    0.0    0.00    0.00       2         std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [7], true>(char const (&) [7], std::pair<int, int> const&) [109]
+                0.00    0.00       2/2           char const (&std::forward<char const (&) [7]>(std::remove_reference<char const (&) [7]>::type&)) [7] [114]
+                0.00    0.00       2/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [46]
+-----------------------------------------------
+                0.00    0.00       2/2           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+[110]    0.0    0.00    0.00       2         std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [4], true>(char const (&) [4], std::pair<int, int> const&) [110]
+                0.00    0.00       2/2           char const (&std::forward<char const (&) [4]>(std::remove_reference<char const (&) [4]>::type&)) [4] [113]
+                0.00    0.00       2/8           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [46]
+-----------------------------------------------
+                0.00    0.00       1/2           ConnectFourBoard::initBoard() [121]
+                0.00    0.00       1/2           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+[111]    0.0    0.00    0.00       2         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector() [111]
+                0.00    0.00       3/6           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() [74]
+                0.00    0.00       3/3           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~_Vector_base() [99]
+                0.00    0.00       3/3           void std::_Destroy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::allocator<std::vector<char, std::allocator<char> > >&) [102]
+-----------------------------------------------
+                0.00    0.00       1/2           std::vector<char, std::allocator<char> >::_S_max_size(std::allocator<char> const&) [151]
+                0.00    0.00       1/2           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [143]
+[112]    0.0    0.00    0.00       2         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [112]
+-----------------------------------------------
+                0.00    0.00       2/2           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [4], true>(char const (&) [4], std::pair<int, int> const&) [110]
+[113]    0.0    0.00    0.00       2         char const (&std::forward<char const (&) [4]>(std::remove_reference<char const (&) [4]>::type&)) [4] [113]
+-----------------------------------------------
+                0.00    0.00       2/2           std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [7], true>(char const (&) [7], std::pair<int, int> const&) [109]
+[114]    0.0    0.00    0.00       2         char const (&std::forward<char const (&) [7]>(std::remove_reference<char const (&) [7]>::type&)) [7] [114]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__Z11checkWinnerRK16ConnectFourBoardc [168]
+[115]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [115]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN16ConnectFourBoard4gridE [169]
+[116]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [116]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector() [149]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN8ComputerC2Ec [171]
+[117]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN6PlayerC2Ec [170]
+[118]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [118]
+-----------------------------------------------
+                0.00    0.00       1/1           Computer::makeMove(ConnectFourBoard&) [39]
+[119]    0.0    0.00    0.00       1         ConnectFourBoard::dropDiscToGap(int, int, char) [119]
+                0.00    0.00       2/78          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+                0.00    0.00       2/78          std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           Computer::makeMove(ConnectFourBoard&) [39]
+[120]    0.0    0.00    0.00       1         ConnectFourBoard::dropDiscToRow(int, int, char) [120]
+                0.00    0.00       2/78          std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) [21]
+                0.00    0.00       2/78          std::vector<char, std::allocator<char> >::operator[](unsigned long) [22]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[121]    0.0    0.00    0.00       1         ConnectFourBoard::initBoard() [121]
+                0.00    0.00       1/2           std::allocator<std::vector<char, std::allocator<char> > >::allocator() [106]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&) [154]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&) [148]
+                0.00    0.00       1/2           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector() [111]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&) [150]
+                0.00    0.00       1/7           std::vector<char, std::allocator<char> >::~vector() [63]
+                0.00    0.00       1/6           std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [71]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[122]    0.0    0.00    0.00       1         Player::Player(char) [122]
+-----------------------------------------------
+                0.00    0.00       1/1           main [6]
+[123]    0.0    0.00    0.00       1         Computer::Computer(char) [123]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::deallocate(std::allocator<std::vector<char, std::allocator<char> > >&, std::vector<char, std::allocator<char> >*, unsigned long) [136]
+[124]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) [137]
+[125]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) [125]
+                0.00    0.00       1/2           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::_M_max_size() const [105]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [138]
+[126]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::max_size() const [126]
+                0.00    0.00       1/2           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::_M_max_size() const [105]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<char> >::max_size(std::allocator<char> const&) [139]
+[127]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<char>::max_size() const [127]
+                0.00    0.00       1/8           __gnu_cxx::new_allocator<char>::_M_max_size() const [42]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+[128]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::get_allocator() const [128]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() const [129]
+                0.00    0.00       1/4           std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&) [92]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::get_allocator() const [128]
+[129]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() const [129]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_create_storage(unsigned long) [132]
+[130]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) [130]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) [137]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base() [135]
+[131]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl() [131]
+                0.00    0.00       1/2           std::allocator<std::vector<char, std::allocator<char> > >::allocator() [106]
+                0.00    0.00       1/5           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [133]
+[132]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_create_storage(unsigned long) [132]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) [130]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&) [148]
+[133]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [133]
+                0.00    0.00       1/2           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&) [107]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_create_storage(unsigned long) [132]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(std::allocator<std::vector<char, std::allocator<char> > > const&) [147]
+[134]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(std::allocator<std::vector<char, std::allocator<char> > > const&) [134]
+                0.00    0.00       1/2           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&) [107]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector() [149]
+[135]    0.0    0.00    0.00       1         std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base() [135]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl() [131]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [98]
+[136]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::deallocate(std::allocator<std::vector<char, std::allocator<char> > >&, std::vector<char, std::allocator<char> >*, unsigned long) [136]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [124]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) [130]
+[137]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) [137]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [143]
+[138]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [138]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::max_size() const [126]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::_S_max_size(std::allocator<char> const&) [151]
+[139]    0.0    0.00    0.00       1         std::allocator_traits<std::allocator<char> >::max_size(std::allocator<char> const&) [139]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<char>::max_size() const [127]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >* std::uninitialized_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [159]
+[140]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [140]
+                0.00    0.00       6/12          std::vector<char, std::allocator<char> >* std::__addressof<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >&) [34]
+                0.00    0.00       6/6           void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&) [78]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::uninitialized_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [160]
+[141]    0.0    0.00    0.00       1         char* std::__uninitialized_fill_n<true>::__uninit_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [141]
+                0.00    0.00       1/1           char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [165]
+-----------------------------------------------
+                0.00    0.00       1/1           Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [41]
+[142]    0.0    0.00    0.00       1         std::pair<int, int>::pair<int&, int, true>(int&, int&&) [142]
+                0.00    0.00       1/7           int& std::forward<int&>(std::remove_reference<int&>::type&) [64]
+                0.00    0.00       1/9           int&& std::forward<int>(std::remove_reference<int>::type&) [38]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [145]
+[143]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [143]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [138]
+                0.00    0.00       1/2           unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [112]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&) [150]
+[144]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+                0.00    0.00       2/2           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_swap_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data&) [108]
+                0.00    0.00       2/6           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() [74]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::get_allocator() const [128]
+                0.00    0.00       1/6           std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [71]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(std::allocator<std::vector<char, std::allocator<char> > > const&) [147]
+                0.00    0.00       1/1           void std::__alloc_on_move<std::allocator<std::vector<char, std::allocator<char> > > >(std::allocator<std::vector<char, std::allocator<char> > >&, std::allocator<std::vector<char, std::allocator<char> > >&) [156]
+                0.00    0.00       1/2           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector() [111]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&) [148]
+[145]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [145]
+                0.00    0.00       1/4           std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&) [92]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [143]
+                0.00    0.00       1/6           std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [71]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&) [148]
+[146]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_fill_initialize(unsigned long, std::vector<char, std::allocator<char> > const&) [146]
+                0.00    0.00       1/6           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() [74]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n_a<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > >&) [161]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+[147]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(std::allocator<std::vector<char, std::allocator<char> > > const&) [147]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(std::allocator<std::vector<char, std::allocator<char> > > const&) [134]
+-----------------------------------------------
+                0.00    0.00       1/1           ConnectFourBoard::initBoard() [121]
+[148]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&) [148]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [145]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [133]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_fill_initialize(unsigned long, std::vector<char, std::allocator<char> > const&) [146]
+-----------------------------------------------
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [116]
+[149]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector() [149]
+                0.00    0.00       1/1           std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base() [135]
+-----------------------------------------------
+                0.00    0.00       1/1           ConnectFourBoard::initBoard() [121]
+[150]    0.0    0.00    0.00       1         std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&) [150]
+                0.00    0.00       1/1           std::remove_reference<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>::type&& std::move<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&) [164]
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::_S_check_init_len(unsigned long, std::allocator<char> const&) [152]
+[151]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >::_S_max_size(std::allocator<char> const&) [151]
+                0.00    0.00       1/1           std::allocator_traits<std::allocator<char> >::max_size(std::allocator<char> const&) [139]
+                0.00    0.00       1/2           unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [112]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&) [154]
+[152]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >::_S_check_init_len(unsigned long, std::allocator<char> const&) [152]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::_S_max_size(std::allocator<char> const&) [151]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&) [154]
+[153]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >::_M_fill_initialize(unsigned long, char const&) [153]
+                0.00    0.00       1/14          std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() [32]
+                0.00    0.00       1/1           char* std::__uninitialized_fill_n_a<char*, unsigned long, char, char>(char*, unsigned long, char const&, std::allocator<char>&) [162]
+-----------------------------------------------
+                0.00    0.00       1/1           ConnectFourBoard::initBoard() [121]
+[154]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&) [154]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::_S_check_init_len(unsigned long, std::allocator<char> const&) [152]
+                0.00    0.00       1/7           std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) [59]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::_M_fill_initialize(unsigned long, char const&) [153]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [165]
+[155]    0.0    0.00    0.00       1         char* std::__fill_n_a<char*, unsigned long, char>(char*, unsigned long, char const&, std::random_access_iterator_tag) [155]
+                0.00    0.00       1/1           void std::__fill_a<char*, char>(char*, char*, char const&) [166]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [144]
+[156]    0.0    0.00    0.00       1         void std::__alloc_on_move<std::allocator<std::vector<char, std::allocator<char> > > >(std::allocator<std::vector<char, std::allocator<char> > >&, std::allocator<std::vector<char, std::allocator<char> > >&) [156]
+                0.00    0.00       1/1           std::remove_reference<std::allocator<std::vector<char, std::allocator<char> > >&>::type&& std::move<std::allocator<std::vector<char, std::allocator<char> > >&>(std::allocator<std::vector<char, std::allocator<char> > >&) [163]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [165]
+[157]    0.0    0.00    0.00       1         std::__size_to_integer(unsigned long) [157]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [165]
+[158]    0.0    0.00    0.00       1         std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&) [158]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n_a<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > >&) [161]
+[159]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >* std::uninitialized_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [159]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [140]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::__uninitialized_fill_n_a<char*, unsigned long, char, char>(char*, unsigned long, char const&, std::allocator<char>&) [162]
+[160]    0.0    0.00    0.00       1         char* std::uninitialized_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [160]
+                0.00    0.00       1/1           char* std::__uninitialized_fill_n<true>::__uninit_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [141]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_fill_initialize(unsigned long, std::vector<char, std::allocator<char> > const&) [146]
+[161]    0.0    0.00    0.00       1         std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n_a<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > >&) [161]
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >* std::uninitialized_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [159]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<char, std::allocator<char> >::_M_fill_initialize(unsigned long, char const&) [153]
+[162]    0.0    0.00    0.00       1         char* std::__uninitialized_fill_n_a<char*, unsigned long, char, char>(char*, unsigned long, char const&, std::allocator<char>&) [162]
+                0.00    0.00       1/1           char* std::uninitialized_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [160]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__alloc_on_move<std::allocator<std::vector<char, std::allocator<char> > > >(std::allocator<std::vector<char, std::allocator<char> > >&, std::allocator<std::vector<char, std::allocator<char> > >&) [156]
+[163]    0.0    0.00    0.00       1         std::remove_reference<std::allocator<std::vector<char, std::allocator<char> > >&>::type&& std::move<std::allocator<std::vector<char, std::allocator<char> > >&>(std::allocator<std::vector<char, std::allocator<char> > >&) [163]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&) [150]
+[164]    0.0    0.00    0.00       1         std::remove_reference<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>::type&& std::move<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&) [164]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::__uninitialized_fill_n<true>::__uninit_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [141]
+[165]    0.0    0.00    0.00       1         char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [165]
+                0.00    0.00       1/1           std::__size_to_integer(unsigned long) [157]
+                0.00    0.00       1/1           std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&) [158]
+                0.00    0.00       1/1           char* std::__fill_n_a<char*, unsigned long, char>(char*, unsigned long, char const&, std::random_access_iterator_tag) [155]
+-----------------------------------------------
+                0.00    0.00       1/1           char* std::__fill_n_a<char*, unsigned long, char>(char*, unsigned long, char const&, std::random_access_iterator_tag) [155]
+[166]    0.0    0.00    0.00       1         void std::__fill_a<char*, char>(char*, char*, char const&) [166]
+                0.00    0.00       1/1           __gnu_cxx::__enable_if<std::__is_byte<char>::__value, void>::__type std::__fill_a1<char>(char*, char*, char const&) [167]
+-----------------------------------------------
+                0.00    0.00       1/1           void std::__fill_a<char*, char>(char*, char*, char const&) [166]
+[167]    0.0    0.00    0.00       1         __gnu_cxx::__enable_if<std::__is_byte<char>::__value, void>::__type std::__fill_a1<char>(char*, char*, char const&) [167]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2022 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [29] checkWinner(ConnectFourBoard const&, char) [43] std::char_traits<char>::length(char const*) [21] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long)
+ [115] __static_initialization_and_destruction_0(int, int) (main.cpp) [96] void std::_Destroy_aux<false>::__destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*) [151] std::vector<char, std::allocator<char> >::_S_max_size(std::allocator<char> const&)
+ [116] __static_initialization_and_destruction_0(int, int) (Board.cpp) [52] void std::_Destroy_aux<true>::__destroy<char*>(char*, char*) [152] std::vector<char, std::allocator<char> >::_S_check_init_len(unsigned long, std::allocator<char> const&)
+ [117] __static_initialization_and_destruction_0(int, int) (Computer.cpp) [130] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_allocate(unsigned long) [153] std::vector<char, std::allocator<char> >::_M_fill_initialize(unsigned long, char const&)
+ [118] __static_initialization_and_destruction_0(int, int) (Player.cpp) [131] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl() [77] std::vector<char, std::allocator<char> >::vector(std::vector<char, std::allocator<char> > const&)
+ [119] ConnectFourBoard::dropDiscToGap(int, int, char) [107] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::_Vector_impl(std::allocator<std::vector<char, std::allocator<char> > > const&) [154] std::vector<char, std::allocator<char> >::vector(unsigned long, char const&, std::allocator<char> const&)
+ [120] ConnectFourBoard::dropDiscToRow(int, int, char) [97] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl::~_Vector_impl() [63] std::vector<char, std::allocator<char> >::~vector()
+ [103] ConnectFourBoard::dropDiscToColumn(int, int, char) [98] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [22] std::vector<char, std::allocator<char> >::operator[](unsigned long)
+  [33] ConnectFourBoard::dropDisc(int, char) [132] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_create_storage(unsigned long) [45] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ [121] ConnectFourBoard::initBoard() [73] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_copy_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data const&) [46] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  [37] Player::makeMove(ConnectFourBoard&) [108] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_M_swap_data(std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data&) [78] void std::_Construct<std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > const&>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > const&)
+ [122] Player::Player(char)   [90] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data() [47] std::iterator_traits<char const*>::difference_type std::__distance<char const*>(char const*, char const*, std::random_access_iterator_tag)
+  [39] Computer::makeMove(ConnectFourBoard&) [74] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() [155] char* std::__fill_n_a<char*, unsigned long, char>(char*, unsigned long, char const&, std::random_access_iterator_tag)
+ [123] Computer::Computer(char) [133] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [34] std::vector<char, std::allocator<char> >* std::__addressof<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >&)
+ [124] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::deallocate(std::vector<char, std::allocator<char> >*, unsigned long) [134] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base(std::allocator<std::vector<char, std::allocator<char> > > const&) [35] __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > std::__miter_base<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >)
+ [125] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::allocate(unsigned long, void const*) [135] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_Vector_base() [36] char const* std::__niter_base<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >)
+  [91] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator(__gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > > const&) [99] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~_Vector_base() [79] char* std::__niter_base<char*>(char*)
+ [104] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::new_allocator() [53] std::_Vector_base<char, std::allocator<char> >::_M_allocate(unsigned long) [80] char* std::__niter_wrap<char*>(char* const&, char*)
+  [67] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::~new_allocator() [54] std::_Vector_base<char, std::allocator<char> >::_Vector_impl::_Vector_impl(std::allocator<char> const&) [81] char* std::__copy_move_a<false, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  [50] __gnu_cxx::new_allocator<char>::deallocate(char*, unsigned long) [55] std::_Vector_base<char, std::allocator<char> >::_Vector_impl::~_Vector_impl() [82] char* std::__copy_move_a1<false, char const*, char*>(char const*, char const*, char*)
+  [51] __gnu_cxx::new_allocator<char>::allocate(unsigned long, void const*) [56] std::_Vector_base<char, std::allocator<char> >::_M_deallocate(char*, unsigned long) [83] char* std::__copy_move_a2<false, char const*, char*>(char const*, char const*, char*)
+  [68] __gnu_cxx::__alloc_traits<std::allocator<char>, char>::_S_select_on_copy(std::allocator<char> const&) [57] std::_Vector_base<char, std::allocator<char> >::_M_create_storage(unsigned long) [156] void std::__alloc_on_move<std::allocator<std::vector<char, std::allocator<char> > > >(std::allocator<std::vector<char, std::allocator<char> > >&, std::allocator<std::vector<char, std::allocator<char> > >&)
+  [40] bool __gnu_cxx::__is_null_pointer<char const>(char const*) [58] std::_Vector_base<char, std::allocator<char> >::_Vector_impl_data::_Vector_impl_data() [157] std::__size_to_integer(unsigned long)
+  [15] __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::__normal_iterator(char const* const&) [32] std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() [84] char* std::uninitialized_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  [12] __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator++() [59] std::_Vector_base<char, std::allocator<char> >::_Vector_base(unsigned long, std::allocator<char> const&) [48] std::iterator_traits<char const*>::iterator_category std::__iterator_category<char const*>(char const* const&)
+  [23] __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::__normal_iterator(std::vector<char, std::allocator<char> >* const&) [60] std::_Vector_base<char, std::allocator<char> >::~_Vector_base() [158] std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
+  [19] __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator++() [136] std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::deallocate(std::allocator<std::vector<char, std::allocator<char> > >&, std::vector<char, std::allocator<char> >*, unsigned long) [159] std::vector<char, std::allocator<char> >* std::uninitialized_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&)
+  [11] bool __gnu_cxx::operator!=<char const*, std::vector<char, std::allocator<char> > >(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > > const&) [137] std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::allocate(std::allocator<std::vector<char, std::allocator<char> > >&, unsigned long) [160] char* std::uninitialized_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&)
+  [16] bool __gnu_cxx::operator!=<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >(__gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&, __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > > const&) [138] std::allocator_traits<std::allocator<std::vector<char, std::allocator<char> > > >::max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [85] char* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, char>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*, std::allocator<char>&)
+  [26] ConnectFourBoard::displayBoard() const [61] std::allocator_traits<std::allocator<char> >::deallocate(std::allocator<char>&, char*, unsigned long) [161] std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n_a<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> >, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > >&)
+  [31] ConnectFourBoard::isColumnFull(int) const [75] std::allocator_traits<std::allocator<char> >::select_on_container_copy_construction(std::allocator<char> const&) [162] char* std::__uninitialized_fill_n_a<char*, unsigned long, char, char>(char*, unsigned long, char const&, std::allocator<char>&)
+  [30] ConnectFourBoard::isFull() const [62] std::allocator_traits<std::allocator<char> >::allocate(std::allocator<char>&, unsigned long) [112] unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
+  [25] ConnectFourBoard::getGrid() const [139] std::allocator_traits<std::allocator<char> >::max_size(std::allocator<char> const&) [86] char* std::copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*)
+  [41] Computer::hasThreeConsecutive[abi:cxx11](ConnectFourBoard const&, char) const [76] char* std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*>(__gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >, char*) [163] std::remove_reference<std::allocator<std::vector<char, std::allocator<char> > >&>::type&& std::move<std::allocator<std::vector<char, std::allocator<char> > >&>(std::allocator<std::vector<char, std::allocator<char> > >&)
+ [105] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::_M_max_size() const [140] std::vector<char, std::allocator<char> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, unsigned long, std::vector<char, std::allocator<char> > const&) [164] std::remove_reference<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>::type&& std::move<std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&>(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&)
+ [126] __gnu_cxx::new_allocator<std::vector<char, std::allocator<char> > >::max_size() const [141] char* std::__uninitialized_fill_n<true>::__uninit_fill_n<char*, unsigned long, char>(char*, unsigned long, char const&) [165] char* std::fill_n<char*, unsigned long, char>(char*, unsigned long, char const&)
+  [42] __gnu_cxx::new_allocator<char>::_M_max_size() const [109] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [7], true>(char const (&) [7], std::pair<int, int> const&) [113] char const (&std::forward<char const (&) [4]>(std::remove_reference<char const (&) [4]>::type&)) [4]
+ [127] __gnu_cxx::new_allocator<char>::max_size() const [110] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [4], true>(char const (&) [4], std::pair<int, int> const&) [95] char const (&std::forward<char const (&) [5]>(std::remove_reference<char const (&) [5]>::type&)) [5]
+  [10] __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::base() const [93] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::pair<char const (&) [5], true>(char const (&) [5], std::pair<int, int> const&) [114] char const (&std::forward<char const (&) [7]>(std::remove_reference<char const (&) [7]>::type&)) [7]
+  [13] __gnu_cxx::__normal_iterator<char const*, std::vector<char, std::allocator<char> > >::operator*() const [44] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<int, int> >::~pair() [87] std::vector<char, std::allocator<char> > const& std::forward<std::vector<char, std::allocator<char> > const&>(std::remove_reference<std::vector<char, std::allocator<char> > const&>::type&)
+  [14] __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::base() const [100] std::pair<int, int>::pair<int&, int&, true>(int&, int&) [64] int& std::forward<int&>(std::remove_reference<int&>::type&)
+  [20] __gnu_cxx::__normal_iterator<std::vector<char, std::allocator<char> >*, std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > > >::operator*() const [142] std::pair<int, int>::pair<int&, int, true>(int&, int&&) [38] int&& std::forward<int>(std::remove_reference<int>::type&)
+ [128] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::get_allocator() const [94] std::pair<int, int>::pair<int, int, true>(int&&, int&&) [101] void std::_Destroy<std::vector<char, std::allocator<char> >*>(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*)
+ [129] std::_Vector_base<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_get_Tp_allocator() const [143] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_max_size(std::allocator<std::vector<char, std::allocator<char> > > const&) [102] void std::_Destroy<std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*, std::vector<char, std::allocator<char> >*, std::allocator<std::vector<char, std::allocator<char> > >&)
+  [69] std::_Vector_base<char, std::allocator<char> >::_M_get_Tp_allocator() const [144] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_move_assign(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&, std::integral_constant<bool, true>) [65] void std::_Destroy<char*>(char*, char*)
+   [8] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator[](unsigned long) const [145] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_S_check_init_len(unsigned long, std::allocator<std::vector<char, std::allocator<char> > > const&) [66] void std::_Destroy<char*, char>(char*, char*, std::allocator<char>&)
+  [17] std::vector<char, std::allocator<char> >::end() const [146] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::_M_fill_initialize(unsigned long, std::vector<char, std::allocator<char> > const&) [88] void std::_Destroy<std::vector<char, std::allocator<char> > >(std::vector<char, std::allocator<char> >*)
+  [70] std::vector<char, std::allocator<char> >::size() const [27] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::end() [166] void std::__fill_a<char*, char>(char*, char*, char const&)
+  [18] std::vector<char, std::allocator<char> >::begin() const [28] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::begin() [49] std::iterator_traits<char const*>::difference_type std::distance<char const*>(char const*, char const*)
+   [9] std::vector<char, std::allocator<char> >::operator[](unsigned long) const [147] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(std::allocator<std::vector<char, std::allocator<char> > > const&) [167] __gnu_cxx::__enable_if<std::__is_byte<char>::__value, void>::__type std::__fill_a1<char>(char*, char*, char const&)
+  [92] std::allocator<std::vector<char, std::allocator<char> > >::allocator(std::allocator<std::vector<char, std::allocator<char> > > const&) [148] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector(unsigned long, std::vector<char, std::allocator<char> > const&, std::allocator<std::vector<char, std::allocator<char> > > const&) [24] bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+ [106] std::allocator<std::vector<char, std::allocator<char> > >::allocator() [149] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::vector() [89] operator new(unsigned long, void*)
+  [71] std::allocator<std::vector<char, std::allocator<char> > >::~allocator() [111] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::~vector()
+  [72] char* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<char>(char const*, char const*, char*) [150] std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >::operator=(std::vector<std::vector<char, std::allocator<char> >, std::allocator<std::vector<char, std::allocator<char> > > >&&)

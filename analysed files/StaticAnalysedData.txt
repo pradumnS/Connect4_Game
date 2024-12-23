@@ -1,0 +1,137 @@
+ cmake -S . -B build
+-- Build Type:
+-- Cppcheck: /usr/bin/cppcheck
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ConnectFour/build
+root@pradumnshukla:/home/ConnectFour# cmake --build build --target cppcheck
+[100%] Running Cppcheck on the source code...
+/home/ConnectFour/include/Player.hpp:8:5: style: Class 'Player' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Player(char symbol);              // Constructor
+    ^
+/home/ConnectFour/include/Computer.hpp:8:5: style: Class 'Computer' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Computer(char symbol);              // Constructor
+    ^
+/home/ConnectFour/include/Board.hpp:10:10: performance: inconclusive: Technically the member function 'ConnectFourBoard::displayBoard' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    void displayBoard() const;               // Display the board
+         ^
+/home/ConnectFour/src/Board.cpp:11:24: note: Technically the member function 'ConnectFourBoard::displayBoard' can be static (but you may consider moving to unnamed namespace).
+void ConnectFourBoard::displayBoard() const {
+                       ^
+/home/ConnectFour/include/Board.hpp:10:10: note: Technically the member function 'ConnectFourBoard::displayBoard' can be static (but you may consider moving to unnamed namespace).
+    void displayBoard() const;               // Display the board
+         ^
+/home/ConnectFour/include/Board.hpp:11:10: style: inconclusive: Technically the member function 'ConnectFourBoard::dropDisc' can be const. [functionConst]
+    bool dropDisc(int column, char disc);
+         ^
+/home/ConnectFour/src/Board.cpp:23:24: note: Technically the member function 'ConnectFourBoard::dropDisc' can be const.
+bool ConnectFourBoard::dropDisc(int column, char disc) {
+                       ^
+/home/ConnectFour/include/Board.hpp:11:10: note: Technically the member function 'ConnectFourBoard::dropDisc' can be const.
+    bool dropDisc(int column, char disc);
+         ^
+/home/ConnectFour/include/Board.hpp:12:10: style: inconclusive: Technically the member function 'ConnectFourBoard::dropDiscToColumn' can be const. [functionConst]
+    bool dropDiscToColumn(int row, int col, char disc);    // Drop a disc into the specified column
+         ^
+/home/ConnectFour/src/Board.cpp:37:24: note: Technically the member function 'ConnectFourBoard::dropDiscToColumn' can be const.
+bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
+                       ^
+/home/ConnectFour/include/Board.hpp:12:10: note: Technically the member function 'ConnectFourBoard::dropDiscToColumn' can be const.
+    bool dropDiscToColumn(int row, int col, char disc);    // Drop a disc into the specified column
+         ^
+/home/ConnectFour/include/Board.hpp:13:10: performance: inconclusive: Technically the member function 'ConnectFourBoard::dropDiscToRow' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    bool dropDiscToRow(int row, int col,char disc);    // Drop a disc into the specified column
+         ^
+/home/ConnectFour/src/Board.cpp:91:24: note: Technically the member function 'ConnectFourBoard::dropDiscToRow' can be static (but you may consider moving to unnamed namespace).
+bool ConnectFourBoard::dropDiscToRow(int row,int column, char disc) {
+                       ^
+/home/ConnectFour/include/Board.hpp:13:10: note: Technically the member function 'ConnectFourBoard::dropDiscToRow' can be static (but you may consider moving to unnamed namespace).
+    bool dropDiscToRow(int row, int col,char disc);    // Drop a disc into the specified column
+         ^
+/home/ConnectFour/include/Board.hpp:14:10: performance: inconclusive: Technically the member function 'ConnectFourBoard::dropDiscToL2R' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    bool dropDiscToL2R(int row, int col, char disc);
+         ^
+/home/ConnectFour/src/Board.cpp:50:24: note: Technically the member function 'ConnectFourBoard::dropDiscToL2R' can be static (but you may consider moving to unnamed namespace).
+bool ConnectFourBoard::dropDiscToL2R(int row, int col, char disc)
+                       ^
+/home/ConnectFour/include/Board.hpp:14:10: note: Technically the member function 'ConnectFourBoard::dropDiscToL2R' can be static (but you may consider moving to unnamed namespace).
+    bool dropDiscToL2R(int row, int col, char disc);
+         ^
+/home/ConnectFour/include/Board.hpp:15:10: performance: inconclusive: Technically the member function 'ConnectFourBoard::dropDiscToR2L' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    bool dropDiscToR2L(int row, int col, char disc);
+         ^
+/home/ConnectFour/src/Board.cpp:70:24: note: Technically the member function 'ConnectFourBoard::dropDiscToR2L' can be static (but you may consider moving to unnamed namespace).
+bool ConnectFourBoard::dropDiscToR2L(int row, int col, char disc)
+                       ^
+/home/ConnectFour/include/Board.hpp:15:10: note: Technically the member function 'ConnectFourBoard::dropDiscToR2L' can be static (but you may consider moving to unnamed namespace).
+    bool dropDiscToR2L(int row, int col, char disc);
+         ^
+/home/ConnectFour/include/Board.hpp:16:10: performance: inconclusive: Technically the member function 'ConnectFourBoard::isFull' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    bool isFull() const;                     // Check if the board is full
+         ^
+/home/ConnectFour/src/Board.cpp:108:24: note: Technically the member function 'ConnectFourBoard::isFull' can be static (but you may consider moving to unnamed namespace).
+bool ConnectFourBoard::isFull() const {
+                       ^
+/home/ConnectFour/include/Board.hpp:16:10: note: Technically the member function 'ConnectFourBoard::isFull' can be static (but you may consider moving to unnamed namespace).
+    bool isFull() const;                     // Check if the board is full
+         ^
+/home/ConnectFour/include/Board.hpp:17:10: performance: inconclusive: Technically the member function 'ConnectFourBoard::isColumnFull' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    bool isColumnFull(int column) const;     // Check if a specific column is full
+         ^
+/home/ConnectFour/src/Board.cpp:117:24: note: Technically the member function 'ConnectFourBoard::isColumnFull' can be static (but you may consider moving to unnamed namespace).
+bool ConnectFourBoard::isColumnFull(int column) const {
+                       ^
+/home/ConnectFour/include/Board.hpp:17:10: note: Technically the member function 'ConnectFourBoard::isColumnFull' can be static (but you may consider moving to unnamed namespace).
+    bool isColumnFull(int column) const;     // Check if a specific column is full
+         ^
+/home/ConnectFour/include/Board.hpp:18:43: performance: inconclusive: Technically the member function 'ConnectFourBoard::getGrid' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    const std::vector<std::vector<char>>& getGrid() const; // Access the grid
+                                          ^
+/home/ConnectFour/src/Board.cpp:121:57: note: Technically the member function 'ConnectFourBoard::getGrid' can be static (but you may consider moving to unnamed namespace).
+const std::vector<std::vector<char>>& ConnectFourBoard::getGrid() const {
+                                                        ^
+/home/ConnectFour/include/Board.hpp:18:43: note: Technically the member function 'ConnectFourBoard::getGrid' can be static (but you may consider moving to unnamed namespace).
+    const std::vector<std::vector<char>>& getGrid() const; // Access the grid
+                                          ^
+/home/ConnectFour/src/Board.cpp:37:54: style: inconclusive: Function 'dropDiscToColumn' argument 2 names different: declaration 'col' definition 'column'. [funcArgNamesDifferent]
+bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
+                                                     ^
+/home/ConnectFour/include/Board.hpp:12:40: note: Function 'dropDiscToColumn' argument 2 names different: declaration 'col' definition 'column'.
+    bool dropDiscToColumn(int row, int col, char disc);    // Drop a disc into the specified column
+                                       ^
+/home/ConnectFour/src/Board.cpp:37:54: note: Function 'dropDiscToColumn' argument 2 names different: declaration 'col' definition 'column'.
+bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
+                                                     ^
+/home/ConnectFour/src/Board.cpp:91:50: style: inconclusive: Function 'dropDiscToRow' argument 2 names different: declaration 'col' definition 'column'. [funcArgNamesDifferent]
+bool ConnectFourBoard::dropDiscToRow(int row,int column, char disc) {
+                                                 ^
+/home/ConnectFour/include/Board.hpp:13:37: note: Function 'dropDiscToRow' argument 2 names different: declaration 'col' definition 'column'.
+    bool dropDiscToRow(int row, int col,char disc);    // Drop a disc into the specified column
+                                    ^
+/home/ConnectFour/src/Board.cpp:91:50: note: Function 'dropDiscToRow' argument 2 names different: declaration 'col' definition 'column'.
+bool ConnectFourBoard::dropDiscToRow(int row,int column, char disc) {
+                                                 ^
+/home/ConnectFour/src/Board.cpp:42:14: style: Local variable 'row' shadows outer argument [shadowArgument]
+    for (int row = ROWS - 1; row >= 0; --row) {
+             ^
+/home/ConnectFour/src/Board.cpp:37:45: note: Shadowed declaration
+bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
+                                            ^
+/home/ConnectFour/src/Board.cpp:42:14: note: Shadow variable
+    for (int row = ROWS - 1; row >= 0; --row) {
+             ^
+/home/ConnectFour/include/Computer.hpp:15:10: style: Unused private function: 'Computer::checkWinner' [unusedPrivateFunction]
+    bool checkWinner(const ConnectFourBoard& board, char currentSymbol) const;
+         ^
+/home/ConnectFour/include/Computer.hpp:15:10: performance: inconclusive: Technically the member function 'Computer::checkWinner' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+    bool checkWinner(const ConnectFourBoard& board, char currentSymbol) const;
+         ^
+/home/ConnectFour/src/Computer.cpp:130:16: note: Technically the member function 'Computer::checkWinner' can be static (but you may consider moving to unnamed namespace).
+bool Computer::checkWinner(const ConnectFourBoard& board, char currentSymbol) const {
+               ^
+/home/ConnectFour/include/Computer.hpp:15:10: note: Technically the member function 'Computer::checkWinner' can be static (but you may consider moving to unnamed namespace).
+    bool checkWinner(const ConnectFourBoard& board, char currentSymbol) const;
+         ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
+[100%] Built target cppcheck
