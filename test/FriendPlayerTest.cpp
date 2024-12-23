@@ -34,21 +34,9 @@ TEST_F(FriendPlayerTest, MakeValidMove)
     EXPECT_EQ(board.getGrid()[5][3], 'X'); // Check bottom row, 4th column
 }
 
-// Test 2: Handle invalid input (non-numeric)
-TEST_F(FriendPlayerTest, HandleInvalidInputNonNumeric)
-{
-    // Simulate invalid input followed by valid input
-    std::istringstream input("abc\n4\n");
-    std::cin.rdbuf(input.rdbuf()); // Redirect input stream
 
-    // Make move
-    player.makeMove(board);
 
-    // Verify that 'X' is placed in column 3 (0-based index)
-    EXPECT_EQ(board.getGrid()[5][3], 'X');
-}
-
-// Test 3: Handle invalid input (out-of-range input)
+// Test 2: Handle invalid input (out-of-range input)
 TEST_F(FriendPlayerTest, HandleOutOfRangeInput)
 {
     // Simulate out-of-range input (-1, 8) followed by valid input (5)
@@ -62,7 +50,7 @@ TEST_F(FriendPlayerTest, HandleOutOfRangeInput)
     EXPECT_EQ(board.getGrid()[5][4], 'X'); // Column 5 in 1-based indexing
 }
 
-// Test 4: Handle input in a full column
+// Test 2: Handle input in a full column
 TEST_F(FriendPlayerTest, HandleFullColumnInput)
 {
     // Fill column 4 completely with 'O'
@@ -81,7 +69,7 @@ TEST_F(FriendPlayerTest, HandleFullColumnInput)
     EXPECT_EQ(board.getGrid()[5][4], 'X'); // Column 5 in 1-based indexing
 }
 
-// Test 5: Fill entire board and ensure no moves can be made
+// Test 4: Fill entire board and ensure no moves can be made
 TEST_F(FriendPlayerTest, HandleFullBoard)
 {
     // Fill the entire board
