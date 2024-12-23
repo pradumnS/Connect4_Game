@@ -26,8 +26,8 @@ bool Computer::makeMove(ConnectFourBoard& board) {
     };
 
     // Check for winning move, if there is no 3 consecutive 'O' then check if can be blocked.
-    auto res = hasThreeConsecutive(board, 'O');
-    if (processMove(res.first, res.second.first, res.second.second, "wins")) {
+    auto result = hasThreeConsecutive(board, 'O');
+    if (processMove(result.first, result.second.first, result.second.second, "wins")) {
         return true;
     }
 

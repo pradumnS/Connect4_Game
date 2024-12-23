@@ -11,16 +11,6 @@
  * - Defines a common interface for player actions, including making moves 
  *   and retrieving player details such as name and symbol.
  * - Implements a virtual destructor to ensure proper cleanup in derived classes.
- * - Enforces safety and immutability with `const`-qualified getter methods.
- * - Prevents accidental copying and assignment by explicitly deleting 
- *   copy constructors and assignment operators.
- *
- * Design Considerations:
- * - Adheres to SOLID principles, enabling extensibility for additional 
- *   player types (e.g., computer-controlled players or networked players).
- * - Uses explicit constructors to avoid unintended type conversions.
- * - Provides protected member variables to support inheritance while ensuring 
- *   encapsulation of implementation details.
  *
  * Usage:
  * - The Player class cannot be instantiated directly. It must be inherited 
