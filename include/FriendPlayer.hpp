@@ -13,13 +13,6 @@
  * - Ensures safe object creation and prevents unintentional copying through 
  *   deleted copy constructors and assignment operators.
  *
- * Design Considerations:
- * - Utilizes explicit constructors to prevent implicit conversions, improving 
- *   code clarity and reducing the risk of unintended behavior.
- * - Provides seamless integration with the `ConnectFourBoard` class for move validation.
- * - Focuses on modularity and scalability, adhering to SOLID principles, 
- *   making it adaptable for enhancements such as AI-based opponents.
- *
  * Usage:
  * - The FriendPlayer class can be instantiated to represent a human player in a 
  *   two-player game mode, enabling interactive gameplay through the `makeMove` method.

@@ -9,10 +9,7 @@
  * Key Features:
  * - Implements logic for the computer to make moves on the board.
  * - Detects patterns such as three consecutive symbols to make strategic decisions.
- * - Ensures proper handling of memory and prevents unintentional object copying 
- *   by deleting the copy constructor and assignment operator.
- * - Uses explicit constructors to prevent implicit conversions, improving code 
- *   clarity and safety.
+ * - Uses explicit constructors to prevent implicit conversions
  *
  * Design Considerations:
  * - Integrates with the ConnectFourBoard class to validate and execute moves.

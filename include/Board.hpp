@@ -13,9 +13,6 @@
  *   and checking if the board or a column is full.
  * - Provides multiple strategies for placing discs on the board (e.g., columns, rows, 
  *   diagonals, and gaps).
- * - Ensures proper memory management using a virtual destructor.
- * - Enforces coding best practices, including const-correctness, static variable 
- *   avoidance, and rule-based guidelines for constructors and operators.
  *
  * Design Considerations:
  * - Uses a 2D vector to model the board grid with predefined dimensions (6 rows x 7 columns).

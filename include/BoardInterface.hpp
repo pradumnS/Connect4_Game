@@ -10,10 +10,6 @@
  * Key Features:
  * - Declares pure virtual methods to enforce implementation of core board operations 
  *   in derived classes.
- * - Supports methods for dropping discs into specific columns, rows, diagonals, and gaps.
- * - Provides a method for displaying the board state and validating whether the board 
- *   is full.
- * - Ensures proper memory management and extensibility through a virtual destructor.
  *
  */
 

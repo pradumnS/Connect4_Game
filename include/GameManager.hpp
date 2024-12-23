@@ -12,14 +12,6 @@
  *   1. Friend Mode - Two players compete against each other.
  *   2. Computer Mode - A player competes against the computer.
  * - Implements helper methods for validating moves and checking game results.
- * - Ensures safe object handling by deleting copy constructors and assignment operators.
- *
- * Design Considerations:
- * - Implements modular methods for scalability and easier maintenance.
- * - Follows SOLID principles, enabling extensibility for additional features 
- *   such as enhanced AI or networked multiplayer support.
- * - Integrates with other components, including `ConnectFourBoard`, `Player`, 
- *   `Computer`, and `FriendPlayer` classes, ensuring seamless gameplay logic.
  *
  * Usage:
  * - Instantiate the GameManager class to initialize and run the game using 
