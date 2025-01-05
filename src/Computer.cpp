@@ -55,7 +55,85 @@ std::pair<std::string, std::pair<int, int>> Computer::hasThreeConsecutive(const 
 
     // std::cout << "Checking for three consecutive symbols...\n";
 
-    for (int row = ROWS - 1; row >= 0; --row) { // Start from the bottom-most row
+    // Gap code
+    for (int row = ROWS - 1; row >= 0; --row) 
+    { // Start from the bottom-most row
+        for (int col = 0; col < COLUMNS - 3; ++col) { // Ensure room for 4-in-a-row
+            // Pattern 1: X X . X
+            if (grid[row][col] == symbol &&
+                grid[row][col + 1] == symbol &&
+                grid[row][col + 2] == '.' &&
+                grid[row][col + 3] == symbol) {
+
+                // Drop the token to the lowest valid row for gravity
+                int dropRow = row;
+                while (dropRow < ROWS - 1 && grid[dropRow + 1][col + 2] == '.') {
+                    dropRow++;
+                }
+
+                // Ensure valid gravity placement
+                if (dropRow == row) { // Row must match, or else it's floating
+                    return {"gap", {dropRow, col + 2}};
+                }
+            }
+
+            // Pattern 2: X . X X
+            if (grid[row][col] == symbol &&
+                grid[row][col + 1] == '.' &&
+                grid[row][col + 2] == symbol &&
+                grid[row][col + 3] == symbol) {
+
+                // Drop the token to the lowest valid row for gravity
+                int dropRow = row;
+                while (dropRow < ROWS - 1 && grid[dropRow + 1][col + 1] == '.') {
+                    dropRow++;
+                }
+
+                // Ensure valid gravity placement
+                if (dropRow == row) { // Row must match, or else it's floating
+                    return {"gap", {dropRow, col + 1}};
+                }
+            }
+        }
+    }
+
+
+    for (int row = ROWS - 1; row >= 0; --row) { // Start from the bottom row
+    for (int col = 0; col < COLUMNS - 2; ++col) { // Ensure room for 3
+        if (grid[row][col] == symbol &&
+            grid[row][col + 1] == symbol &&
+            grid[row][col + 2] == symbol) {
+
+            // Check left side
+            int candidateCol = col - 1;
+            if (candidateCol >= 0 && grid[row][candidateCol] == '.') {
+                int dropRow = row;
+                while (dropRow < ROWS - 1 && grid[dropRow + 1][candidateCol] == '.') {
+                    dropRow++;
+                }
+                if (dropRow == row) {
+                    return {"column", {dropRow, candidateCol}};
+                }
+            }
+
+            // Check right side
+            candidateCol = col + 3;
+            if (candidateCol < COLUMNS && grid[row][candidateCol] == '.') {
+                int dropRow = row;
+                while (dropRow < ROWS - 1 && grid[dropRow + 1][candidateCol] == '.') {
+                    dropRow++;
+                }
+                if (dropRow == row) {
+                    return {"column", {dropRow, candidateCol}};
+                }
+            }
+        }
+    }
+    }
+
+
+
+    /* for (int row = ROWS - 1; row >= 0; --row) { // Start from the bottom-most row
         for (int col = 0; col < COLUMNS - 3; ++col) { // Ensure room for 4-in-a-row
             // Pattern 1: X X . X
             if (grid[row][col] == symbol &&
@@ -73,27 +151,70 @@ std::pair<std::string, std::pair<int, int>> Computer::hasThreeConsecutive(const 
                 return {"gap", {row, col + 1}}; // Return the row and column of the gap
             }
         }
-    }
+    } */
 
-    // horizental check
+
+    // horizental
+    /* for (int row = ROWS - 1; row >= 0; --row) { // Start from the bottom row
+    for (int col = 0; col < COLUMNS - 2; ++col) { // Ensure room for 3
+        if (grid[row][col] == symbol &&
+            grid[row][col + 1] == symbol &&
+            grid[row][col + 2] == symbol) {
+
+            // Check left side
+            int candidateCol = col - 1;
+            if (candidateCol >= 0 && grid[row][candidateCol] == '.') {
+                // Find the lowest valid row in this column
+                int dropRow = row;
+                while (dropRow < ROWS - 1 && grid[dropRow + 1][candidateCol] == '.') {
+                    dropRow++; // Drop to the lowest available position
+                }
+                // Check if it's a valid drop
+                if (dropRow == row) {
+                    return {"column", {dropRow, candidateCol}}; // Valid drop
+                }
+            }
+
+            // Check right side
+            candidateCol = col + 3;
+            if (candidateCol < COLUMNS && grid[row][candidateCol] == '.') {
+                // Find the lowest valid row in this column
+                int dropRow = row;
+                while (dropRow < ROWS - 1 && grid[dropRow + 1][candidateCol] == '.') {
+                    dropRow++; // Drop to the lowest available position
+                }
+                // Check if it's a valid drop
+                if (dropRow == row) {
+                    return {"column", {dropRow, candidateCol}}; // Valid drop
+                }
+            }
+        }
+    }
+    } */
+
+
+
+    /* // horizental check
     for (int row = ROWS - 1; row >= 0; --row) { // Start from the bottom row
         for (int col = 0; col < COLUMNS - 2; ++col) { // Ensure room for 3
             if (grid[row][col] == symbol &&
                 grid[row][col + 1] == symbol &&
                 grid[row][col + 2] == symbol) {
-                // Check left side
-                if (col - 1 >= 0 && grid[row][col - 1] == '.') { // Empty space on the left
+                // Check left side and gravity
+                if (col - 1 >= 0 && grid[row][col - 1] == '.' && 
+                   (row == ROWS - 1 || grid[row + 1][col - 1] != '.')) { // Empty space on the left
                     col-=1;
                     return {"column",{row, col}};
                 }
                 // Check right side
-                if (col + 3 < COLUMNS && grid[row][col + 3] == '.') { // Empty space on the right
+                if (col + 3 < COLUMNS && grid[row][col + 3] == '.' && (row == ROWS - 1 || grid[row + 1][col + 3] != '.')) 
+                { // Empty space on the right
                     col+=3;
                     return {"column",{row, col}};
                 }
             }
         }
-    }
+    } */
 
     // Vertical check
     for (int col = 0; col < COLUMNS; ++col) {
@@ -121,7 +242,9 @@ std::pair<std::string, std::pair<int, int>> Computer::hasThreeConsecutive(const 
                 int checkCol = col + 3;
 
                 // Check bounds and if the position is empty
-                if (checkRow >= 0 && checkCol < COLUMNS && grid[checkRow][checkCol] == '.') {
+                if (checkRow >= 0 && checkCol < COLUMNS && grid[checkRow][checkCol] == '.' &&
+                   (checkRow == ROWS - 1 || grid[checkRow + 1][checkCol] != '.')) 
+                {
                     // Gravity check: Is the cell directly below filled or is it the bottom row?
                     if (checkRow == ROWS - 1 || grid[checkRow + 1][checkCol] != '.') {
                         std::cout << " row1- : " << checkRow << " col1- : " << checkCol << "\n";
@@ -152,7 +275,9 @@ std::pair<std::string, std::pair<int, int>> Computer::hasThreeConsecutive(const 
 
                 if (checkRow >= 0 && checkCol >= 0 && grid[checkRow][checkCol] == '.') {
                     // Ensure gravity (cell below must be filled or it's the bottom row)
-                    if (checkRow == ROWS - 1 || grid[checkRow + 1][checkCol] != '.') {
+                    if (checkRow == ROWS - 1 || grid[checkRow + 1][checkCol] != '.' && 
+                       (checkRow == ROWS - 1 || grid[checkRow + 1][checkCol] != '.')) 
+                    {
                         std::cout << " row2- : " << checkRow << " col2- : " << checkCol << "\n";
                         return {"R2L", {checkRow, checkCol}};
                     }
