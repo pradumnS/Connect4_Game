@@ -23,8 +23,6 @@
  * - The class can be instantiated to create a Connect4 board and is designed for extensibility,
  *   allowing integration with player and computer strategies.
  *
- * @author [Your Name]
- * @date December 2024
  */
 
 
@@ -51,8 +49,10 @@ public:
 
     // Member functions with const correctness checks if specifc column available
     bool isColumnAvailable( int column) const;
+
     // checks if specifc column full
     bool isColumnFull( int column) const;
+
     // checks if the entire board is full
     bool isFull(void) const override;
 
@@ -74,14 +74,13 @@ private:
     // Private methods
      int getWidth(void) const;
 
-    // Static member variables (Rule 8-11-1: Avoid static variables where possible)
+    // Static member variables
     static vector<vector<char>> grid;
 
-    // Constants (Rule 8-5-1: Use 'constexpr' for constants)
-    static constexpr int ROWS = 6;      // could be used  int
+    static constexpr int ROWS = 6;      
     static constexpr int COLUMNS = 7;
 
-    // Rule 12-8-1: Deleted copy constructor and assignment operator
+    //Deleted copy constructor and assignment operator
     ConnectFourBoard(const ConnectFourBoard&) = delete;
     ConnectFourBoard& operator=(const ConnectFourBoard&) = delete;
 };

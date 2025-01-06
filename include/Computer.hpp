@@ -31,7 +31,7 @@
 #include <utility> // For std::pair
 #include <string>  // For std::string
 
-// Explicitly declare std usage (MISRA Rule 5-1-1)
+// Explicitly declare std pair and string
 using std::pair;
 using std::string;
 
@@ -51,6 +51,9 @@ private:
 
     //Checks three consecutive same pattern
     pair<string, pair<int32_t, int32_t>> hasThreeConsecutive(
+        const ConnectFourBoard& board, char checkSymbol) const;
+
+    pair<string, pair<int32_t, int32_t>> findWinningMove(
         const ConnectFourBoard& board, char checkSymbol) const;
 
     //Deleted copy constructor and assignment operator

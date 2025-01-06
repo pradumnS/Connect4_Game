@@ -28,7 +28,7 @@
 #include "Board.hpp"
 #include <string>
 
-// Use namespace std explicitly (MISRA Rule 5-1-1)
+// Use namespace std explicitly
 using std::string;
 
 // Declare the class
@@ -45,16 +45,16 @@ public:
     virtual void makeMove(ConnectFourBoard& board) = 0;
 
     // Getter methods should be declared 'const' for safety
-    string getName(void) const;  // Add void in parameter list (Rule 8-3-1)
+    string getName(void) const;  // Add void in parameter list
     char getSymbol(void) const;
 
 protected:
-    // Member variables must be private (Rule 8-7-1)
+    // private Member variables
     string name;
     char symbol; // player 
 
 private:
-    // Copy and assignment operations deleted to enforce rule 12-8-1
+    // Copy and assignment operations deleted
     Player(const Player&) = delete;             
     Player& operator=(const Player&) = delete;  
 };

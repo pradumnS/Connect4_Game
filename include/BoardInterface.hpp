@@ -1,6 +1,6 @@
 /**
  * @file DiscDropper.hpp
- * @brief Header file defining the BoardInterface class for the Connect4 game.
+ * @brief Header file defining the interface class.
  *
  * This file declares the BoardInterface, which serves as an abstract base class 
  * for managing the Connect4 board operations. It enforces a standardized interface 

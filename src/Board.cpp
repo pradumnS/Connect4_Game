@@ -49,7 +49,7 @@ bool ConnectFourBoard::dropDisc(int column, char disc) {
 
 // It is the horizental check
 bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
-    if (column < 0 || column > COLUMNS || isColumnFull(column)) {
+    if (column < 0 || column >= COLUMNS || isColumnFull(column)) {
         return false;   
     }
     if (grid[row][column] == '.')
@@ -63,9 +63,9 @@ bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
 // It is the vertical check
 bool ConnectFourBoard::dropDiscToRow(int row,int col, char disc) {
     // Validate the row index
-    if (row < 1 || row >= ROWS) {
+    /* if (row < 0 || row >= ROWS) {
         return false;
-    }
+    } */
     if (grid[row][col] == '.') { // Check if the cell is empty
         grid[row][col] = disc; // Place the disc
         return true;
@@ -84,7 +84,7 @@ bool ConnectFourBoard::dropDiscToDiagonal(int row, int col, char disc)
 
 bool ConnectFourBoard::dropDiscToGap(int row, int col, char disc) {
     // Validate that the position is within bounds
-    if (row < 1 || row >= ROWS || col < 1 || col >= COLUMNS) {
+    if (row < 0 || row >= ROWS || col < 0 || col >= COLUMNS) {
         return false;
     }
     // Check if the specified position is empty
@@ -109,7 +109,7 @@ bool ConnectFourBoard::isFull() const {
 
 
 bool ConnectFourBoard::isColumnFull(int column) const {
-    if (column < 1 || column >= COLUMNS) {
+    if (column < 0 || column >= COLUMNS) {
         return false; // Out of bounds
     }
     for (int row = 0; row < ROWS; ++row) {
@@ -126,7 +126,7 @@ const std::vector<std::vector<char>>& ConnectFourBoard::getGrid() const {
 
 // Check if a column is available
 bool ConnectFourBoard::isColumnAvailable(int column) const {
-    if (column < 0 || column > COLUMNS) {
+    if (column < 0 || column >= COLUMNS) {
         return false; // Out of bounds
     }
     return grid[0][column] == '.'; // Check if the top cell of the column is empty

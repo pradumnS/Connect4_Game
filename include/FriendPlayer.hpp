@@ -28,14 +28,14 @@
 #include "Board.hpp"
 #include <string>
 
-// Explicitly declare std usage (MISRA Rule 5-1-1)
+// Explicitly declare std string 
 using std::string;
 
 // FriendPlayer class inheriting from Player
 class FriendPlayer : public Player
 {
 public:
-    // Explicit constructor to prevent implicit conversions (Rule 7-1-1)
+    // Explicit constructor to prevent implicit conversions
     FriendPlayer(const string& playerName, char playerSymbol);
 
     // Overrides the makeMove function for a friend player

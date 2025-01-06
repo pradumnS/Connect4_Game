@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/Connect4_Game/build",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -std=gnu++17 -o CMakeFiles/Connect4.dir/main.cpp.o -c /home/Connect4_Game/main.cpp",
+  "file": "/home/Connect4_Game/main.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -std=gnu++17 -o CMakeFiles/Connect4.dir/src/Board.cpp.o -c /home/Connect4_Game/src/Board.cpp",
+  "file": "/home/Connect4_Game/src/Board.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -std=gnu++17 -o CMakeFiles/Connect4.dir/src/Computer.cpp.o -c /home/Connect4_Game/src/Computer.cpp",
+  "file": "/home/Connect4_Game/src/Computer.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -std=gnu++17 -o CMakeFiles/Connect4.dir/src/FriendPlayer.cpp.o -c /home/Connect4_Game/src/FriendPlayer.cpp",
+  "file": "/home/Connect4_Game/src/FriendPlayer.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -std=gnu++17 -o CMakeFiles/Connect4.dir/src/GameManager.cpp.o -c /home/Connect4_Game/src/GameManager.cpp",
+  "file": "/home/Connect4_Game/src/GameManager.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -std=gnu++17 -o CMakeFiles/Connect4.dir/src/Player.cpp.o -c /home/Connect4_Game/src/Player.cpp",
+  "file": "/home/Connect4_Game/src/Player.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/maintest.cpp.o -c /home/Connect4_Game/test/maintest.cpp",
+  "file": "/home/Connect4_Game/test/maintest.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/BoardTest.cpp.o -c /home/Connect4_Game/test/BoardTest.cpp",
+  "file": "/home/Connect4_Game/test/BoardTest.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/FriendPlayerTest.cpp.o -c /home/Connect4_Game/test/FriendPlayerTest.cpp",
+  "file": "/home/Connect4_Game/test/FriendPlayerTest.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/ComputerTest.cpp.o -c /home/Connect4_Game/test/ComputerTest.cpp",
+  "file": "/home/Connect4_Game/test/ComputerTest.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/PlayerTest.cpp.o -c /home/Connect4_Game/test/PlayerTest.cpp",
+  "file": "/home/Connect4_Game/test/PlayerTest.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/__/src/Board.cpp.o -c /home/Connect4_Game/src/Board.cpp",
+  "file": "/home/Connect4_Game/src/Board.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/__/src/Player.cpp.o -c /home/Connect4_Game/src/Player.cpp",
+  "file": "/home/Connect4_Game/src/Player.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/__/src/Computer.cpp.o -c /home/Connect4_Game/src/Computer.cpp",
+  "file": "/home/Connect4_Game/src/Computer.cpp"
+},
+{
+  "directory": "/home/Connect4_Game/build/test",
+  "command": "/usr/bin/c++  -I/home/Connect4_Game/include -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/runTests.dir/__/src/FriendPlayer.cpp.o -c /home/Connect4_Game/src/FriendPlayer.cpp",
+  "file": "/home/Connect4_Game/src/FriendPlayer.cpp"
+}
+]

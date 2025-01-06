@@ -31,9 +31,9 @@ void GameManager::displayMenu() {
 void GameManager::playWithFriend() {
    
     // Use FriendPlayer for both players
-    FriendPlayer player1("Player1: ", 'X');
-    FriendPlayer player2("player2: ", 'O');
-
+    FriendPlayer player1("Player-1:", 'X');
+    FriendPlayer player2("player-2:", 'O');
+    std::cout << " \n Displaying the Empty Board " <<"!\n";
     while (!board.isFull() && !checkWinner(board, 'X') && !checkWinner(board, 'O')) {
         board.displayBoard();
 
@@ -66,12 +66,12 @@ void GameManager::playWithFriend() {
 
 void GameManager::playWithComputer() {
     // Use FriendPlayer for the human player
-    FriendPlayer player("player1:", 'X');
+    FriendPlayer player("player:", 'X');
     Computer computer('O');
 
     // Decide who starts first
     int choice;
-    std::cout << "Who starts first? (1 for human, 2 for Computer): ";
+    std::cout << "Who starts first? (1 for Player, 2 for Computer): ";
     std::cin >> choice;
 
     // Validate input
