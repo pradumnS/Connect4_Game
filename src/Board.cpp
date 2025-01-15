@@ -62,10 +62,7 @@ bool ConnectFourBoard::dropDiscToColumn(int row, int column, char disc) {
 
 // It is the vertical check
 bool ConnectFourBoard::dropDiscToRow(int row,int col, char disc) {
-    // Validate the row index
-    /* if (row < 0 || row >= ROWS) {
-        return false;
-    } */
+
     if (grid[row][col] == '.') { // Check if the cell is empty
         grid[row][col] = disc; // Place the disc
         return true;
@@ -120,6 +117,7 @@ bool ConnectFourBoard::isColumnFull(int column) const {
     return true; // No empty slots found
 }
 
+//  retrieve the current state of board
 const std::vector<std::vector<char>>& ConnectFourBoard::getGrid() const {
     return grid;
 }

@@ -35,6 +35,9 @@ using std::string;
 class Player 
 {
 public:
+
+    Player()=default;
+    
     //No dynamic memory allocation allowed mentioned explicit
     explicit Player(const string& playerName, char playerSymbol);
 
@@ -42,7 +45,7 @@ public:
     virtual ~Player() = default;
 
     // Pure virtual function for making a player move
-    virtual void makeMove(ConnectFourBoard& board) = 0;
+    virtual bool makeMove(ConnectFourBoard& board) = 0;
 
     // Getter methods should be declared 'const' for safety
     string getName(void) const;  // Add void in parameter list
