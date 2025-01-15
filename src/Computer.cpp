@@ -31,14 +31,14 @@ bool Computer::makeMove(ConnectFourBoard& board) {
         return moveMade;
     };
 
-    // Check for winning move, if there is no 3 consecutive 'O' then check if can be win.
-    auto result = findWinningMove(board, 'O');
+    // Check for winning move, if there is no 3 consecutive 'O' (ComputerSymbol = 'O') then check if can be win.
+    auto result = findWinningMove(board, ComputerMoveSymbol);
     if (processMove(result.first, result.second.first, result.second.second, "wins")) {
         return true;
     }
 
     // Block player winning move
-    char opponentSymbol = (symbol == 'X') ? 'O' : 'X';
+    char opponentSymbol = (symbol == PlayerMoveSymbol) ? ComputerMoveSymbol : PlayerMoveSymbol;
     ConnectFourBoard &tempBoard = board; // Simulate board
     auto blockMove = hasThreeConsecutive(tempBoard, opponentSymbol);
     if (processMove(blockMove.first, blockMove.second.first, blockMove.second.second, "blocks player")) {
@@ -57,12 +57,10 @@ bool Computer::makeMove(ConnectFourBoard& board) {
 }
 
 std::pair<std::string, std::pair<int, int>> Computer::findWinningMove(const ConnectFourBoard& board, char symbol) const {
+    // retrieving the current state of board
     const auto& grid = board.getGrid();
-    const int ROWS = 6, COLUMNS = 7;
-
-    // Logs
-    // std::cout << "Checking for winning moves...\n";
-
+    
+    //  I tried to cover all the posible edge case to make connectfour game more robust.
     // ------------------------
     // Horizontal Logic
     // ------------------------
@@ -202,11 +200,11 @@ std::pair<std::string, std::pair<int, int>> Computer::findWinningMove(const Conn
 
 
 std::pair<std::string, std::pair<int, int>> Computer::hasThreeConsecutive(const ConnectFourBoard& board, char symbol) const {
+    
+    // retrieving the current state of board
     const auto& grid = board.getGrid();
-    const int ROWS = 6, COLUMNS = 7;
-
-    // std::cout << "Checking for three consecutive symbols...\n";
-
+    
+    //  I tried to cover all the posible edge case to make connectfour game more robust.
     // ------------------------
     // Gap Logic
     // ------------------------

@@ -26,15 +26,15 @@ using std::vector;
 class BoardInterface
 {
 public:
-    // Rule 8-4-1: Virtual destructor to ensure proper cleanup in derived classes
-    // virtual ~BoardInterface(void) = default;
+    // Virtual destructor to ensure proper cleanup in derived classes
+    virtual ~BoardInterface(void) = default;
 
     // Pure virtual methods
     virtual bool isFull(void) const = 0;                     
     virtual void displayBoard(void) const = 0;               
     virtual const vector<vector<char>>& getGrid(void) const = 0;
 
-    virtual bool dropDisc(int column, char disc) = 0;     // Fixed-width integers (MISRA Rule 8-1-1)
+    virtual bool dropDisc(int column, char disc) = 0;
     virtual bool dropDiscToColumn( int row,  int col, char disc) = 0;
     virtual bool dropDiscToRow( int row,  int col, char disc) = 0;
     virtual bool dropDiscToDiagonal( int row,  int col, char disc) = 0;

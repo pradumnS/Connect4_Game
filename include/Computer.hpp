@@ -30,29 +30,33 @@
 #include "Board.hpp"
 #include <utility> // For std::pair
 #include <string>  // For std::string
+#include "Player.hpp"
 
 // Explicitly declare std pair and string
 using std::pair;
 using std::string;
 
 // Class declaration
-class Computer
+class Computer : public Player
 {
 public:
     // Constructor explicit to prevent unintended conversions.
     explicit Computer(char computerSymbol);
 
     // Member functions
-    bool makeMove(ConnectFourBoard& board); // Perform a move of computer
+    bool makeMove(ConnectFourBoard& board) override; // Perform a move of computer
 
 private:
     //Member variables
     char symbol; // Symbol used by the computer ('O')
+    static constexpr char PlayerMoveSymbol = 'X', ComputerMoveSymbol = 'O';
+    static constexpr int ROWS = 6, COLUMNS = 7;
 
-    //Checks three consecutive same pattern
+    //Algorithm to check three consecutive same pattern to block player move
     pair<string, pair<int32_t, int32_t>> hasThreeConsecutive(
         const ConnectFourBoard& board, char checkSymbol) const;
 
+    //Algorithm to check three consecutive same pattern to playe winning move
     pair<string, pair<int32_t, int32_t>> findWinningMove(
         const ConnectFourBoard& board, char checkSymbol) const;
 
