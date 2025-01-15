@@ -10,14 +10,16 @@ public:
         : Player(name, symbol) {}
 
     // Mock implementation of makeMove
-    void makeMove(ConnectFourBoard& board) override {
-        // Drop disc in the first available column
+    bool makeMove(ConnectFourBoard& board) override {
+    // Iterate over columns to find the first available one
         for (int col = 0; col < 7; ++col) {
             if (!board.isColumnFull(col)) { // Check if the column is NOT full
-                board.dropDisc(col, symbol); // Drop disc
-                break;
+                if (board.dropDisc(col, symbol)) { // Attempt to drop the disc
+                    return true; // Move successfully made
+                }
             }
         }
+        return false; // No valid move was possible
     }
 };
 

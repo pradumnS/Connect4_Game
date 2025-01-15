@@ -14,7 +14,8 @@ char Player::getSymbol() const {
     return symbol;
 }
 
-void Player::makeMove(ConnectFourBoard& board) {
+bool Player::makeMove(ConnectFourBoard& board) {
     // Default implementation
+    return true;
 }
 

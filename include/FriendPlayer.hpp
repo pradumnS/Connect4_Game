@@ -20,7 +20,6 @@
  *
  */
 
-
 #ifndef FRIENDPLAYER_HPP
 #define FRIENDPLAYER_HPP
 
@@ -39,7 +38,7 @@ public:
     FriendPlayer(const string& playerName, char playerSymbol);
 
     // Overrides the makeMove function for a friend player
-    void makeMove(ConnectFourBoard& board) override;
+    bool makeMove(ConnectFourBoard& board) override;
 
 private:
     // Deleted copy constructor and assignment operator

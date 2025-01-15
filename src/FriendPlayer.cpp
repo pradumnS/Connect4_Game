@@ -6,13 +6,13 @@ FriendPlayer::FriendPlayer(const std::string& name, char symbol)
     : Player(name, symbol) {}
 
 
-void FriendPlayer::makeMove(ConnectFourBoard& board) {
+bool FriendPlayer::makeMove(ConnectFourBoard& board) {
     int column;
     bool validMove = false;
 
     if (board.isFull()) {
         std::cout << "The board is full! No moves can be made.\n";
-        return; // Exit immediately
+        return false; // Exit immediately
     }
 
     while (!validMove) {
@@ -45,8 +45,7 @@ void FriendPlayer::makeMove(ConnectFourBoard& board) {
         validMove = true; // Move was successful
         }
     }
-     
-    // Valid input and column is available
+     return true;
 }
 
 

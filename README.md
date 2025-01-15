@@ -14,17 +14,6 @@ sudo apt install libgtest-dev
 sudo apt install cmake
 
 
-## Time Spent on the Assignment 
-
-I spent approximately **12 hours** completing this assignment. The time distribution is as follows:  
-
-- **Requirement Analysis and Design**: 1 hour  
-- **Implementation and Coding**: 7 hours  
-- **Testing and Debugging**: 3 hours  
-- **Documentation and Comments**: 1 hour  
-
----
-
 ## Instructions for Compiling and Running the Project
 
 # Compile and Run the Game
@@ -96,41 +85,6 @@ gdb ./Connect4
 - **`n`** – Step over a line  
 - **`c`** – Continue execution  
 
----
-
-## **Additional Notes and Future Improvements**  
-
-### Work Still to Be Done
-1. **Performance Testing**:  
-   - Evaluate the performance under stress and load conditions.  
-
-2. **Input Validation**:  
-   - Add more checks for invalid or malformed inputs.  
-
-3. **Dynamic Resizing**:  
-    Implement support for resizing the grid dynamically.  
-
-### Bugs / Non-Working Use Cases**  
-1. **Edge Cases**:  
-   - Currently, the game does not handle edge cases for extremely large board sizes.  
-
-2. **Undo/Redo Functionality**:  
-   - Undo/Redo operations are not implemented yet.  
-
----
-
-### Improvements and New Features Planned**  
-1. **Graphical User Interface (GUI)**:  
-   - Add a GUI using **Qt** or **Web-based UI** for improved usability.  
-
-2. **Save/Load Game State**:  
-   - Implement saving and resuming games later.  
-
-3. **AI Enhancements**:  
-   - Improve AI strategies to make the computer opponent more competitive.  
-
-4. **Multiplayer Support**:  
-   - Enable network-based multiplayer using sockets.  
 
 
 
